@@ -1,0 +1,144 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SamacSys_Parts_GCG21BR70J106KE01L
+#
+DEF SamacSys_Parts_GCG21BR70J106KE01L C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SamacSys_Parts_GCG21BR70J106KE01L" 350 150 50 H V L CNN
+F2 "CAPC2012X145N" 350 50 50 H I L CNN
+F3 "https://psearch.en.murata.com/capacitor/product/GCG21BR70J106KE01%23.html" 350 -50 50 H I L CNN
+F4 "Capacitor L=2.0mm W=1.25mm T=1.25mm" 350 -150 50 H I L CNN "Description"
+F5 "1.45" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "GCG21BR70J106KE01L" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "GCG21BR70J106KE01L" 350 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/gcg21br70j106ke01l/murata-manufacturing" 350 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "81-GCG21BR70J106KE1L" 350 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCG21BR70J106KE01L?qs=5aG0NVq1C4zhJk4APuyJ0g%3D%3D" 350 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_ISL29034IROZ-T7
+#
+DEF SamacSys_Parts_ISL29034IROZ-T7 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SamacSys_Parts_ISL29034IROZ-T7" 850 200 50 H V L CNN
+F2 "SON50P150X130X80-4N" 850 100 50 H I L CNN
+F3 "https://www.renesas.com/en-us/www/doc/datasheet/isl29034.pdf" 850 0 50 H I L CNN
+F4 "Light to Digital Sensors Integrated Digital Light Sensor" 850 -100 50 H I L CNN "Description"
+F5 "0.8" 850 -200 50 H I L CNN "Height"
+F6 "Renesas Electronics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ISL29034IROZ-T7" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "ISL29034IROZ-T7" 850 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/isl29034iroz-t7/intersil" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "968-ISL29034IROZ-T7" 850 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Renesas-Intersil/ISL29034IROZ-T7?qs=8B2B7TaMn8TsioejS5SyjA%3D%3D" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+X VDD 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X SCL 3 1000 -100 200 L 50 50 0 0 P
+X SDA 4 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_RCS1206100RFKEA
+#
+DEF SamacSys_Parts_RCS1206100RFKEA R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "SamacSys_Parts_RCS1206100RFKEA" 550 150 50 H V L CNN
+F2 "RESC3216X65N" 550 50 50 H I L CNN
+F3 "https://www.vishay.com/docs/20065/rcse3.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 0.5watt 100ohms 1% 100ppm" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "RCS1206100RFKEA" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "RCS1206100RFKEA" 550 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/rcs1206100rfkea/vishay" 550 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "71-RCS1206100RFKEA" 550 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/RCS1206100RFKEA?qs=6AVTNucw1PUJ1aPF5o0Rjw%3D%3D" 550 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_TSM-104-02-S-DV-P-TR
+#
+DEF SamacSys_Parts_TSM-104-02-S-DV-P-TR J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_TSM-104-02-S-DV-P-TR" 650 200 50 H V L CNN
+F2 "TSM-104-YY-ZZZ-DV-P-TR" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf" 650 0 50 H I L CNN
+F4 "8 Position, Dual-Row, .100&quot; Surface Mount Terminal Strip" 650 -100 50 H I L CNN "Description"
+F5 "SAMTEC" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "TSM-104-02-S-DV-P-TR" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "TSM-104-02-S-DV-P-TR" 650 -500 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/tsm-104-02-s-dv-p-tr/samtec" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F9 "200-TSM10402SDVPTR" 650 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.co.uk/ProductDetail/Samtec/TSM-104-02-S-DV-P-TR?qs=0lQeLiL1qyYnr3uHEjAxRw%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 800 -300 200 L 50 50 0 0 P
+X 2 2 0 -300 200 R 50 50 0 0 P
+X 3 3 800 -200 200 L 50 50 0 0 P
+X 4 4 0 -200 200 R 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+X 6 6 0 -100 200 R 50 50 0 0 P
+X 7 7 800 0 200 L 50 50 0 0 P
+X 8 8 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library

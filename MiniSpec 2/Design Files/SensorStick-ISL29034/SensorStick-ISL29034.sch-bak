@@ -1,0 +1,242 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:TSM-104-02-S-DV-P-TR J1
+U 1 1 5F3F1E47
+P 4100 4300
+F 0 "J1" H 4500 4565 50  0000 C CNN
+F 1 "TSM-104-02-S-DV-P-TR" H 4500 4474 50  0000 C CNN
+F 2 "TSM-104-YY-ZZZ-DV-P-TR" H 4750 4400 50  0001 L CNN
+F 3 "http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf" H 4750 4300 50  0001 L CNN
+F 4 "8 Position, Dual-Row, .100&quot; Surface Mount Terminal Strip" H 4750 4200 50  0001 L CNN "Description"
+F 5 "" H 4750 4100 50  0001 L CNN "Height"
+F 6 "SAMTEC" H 4750 4000 50  0001 L CNN "Manufacturer_Name"
+F 7 "TSM-104-02-S-DV-P-TR" H 4750 3900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "TSM-104-02-S-DV-P-TR" H 4750 3800 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/tsm-104-02-s-dv-p-tr/samtec" H 4750 3700 50  0001 L CNN "Arrow Price/Stock"
+F 10 "200-TSM10402SDVPTR" H 4750 3600 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Samtec/TSM-104-02-S-DV-P-TR?qs=0lQeLiL1qyYnr3uHEjAxRw%3D%3D" H 4750 3500 50  0001 L CNN "Mouser Price/Stock"
+	1    4100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ISL29034IROZ-T7 IC1
+U 1 1 5F3F3A29
+P 7300 4150
+F 0 "IC1" H 7800 4415 50  0000 C CNN
+F 1 "ISL29034IROZ-T7" H 7800 4324 50  0000 C CNN
+F 2 "SON50P150X130X80-4N" H 8150 4250 50  0001 L CNN
+F 3 "https://www.renesas.com/en-us/www/doc/datasheet/isl29034.pdf" H 8150 4150 50  0001 L CNN
+F 4 "Light to Digital Sensors Integrated Digital Light Sensor" H 8150 4050 50  0001 L CNN "Description"
+F 5 "0.8" H 8150 3950 50  0001 L CNN "Height"
+F 6 "Renesas Electronics" H 8150 3850 50  0001 L CNN "Manufacturer_Name"
+F 7 "ISL29034IROZ-T7" H 8150 3750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "ISL29034IROZ-T7" H 8150 3650 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/isl29034iroz-t7/intersil" H 8150 3550 50  0001 L CNN "Arrow Price/Stock"
+F 10 "968-ISL29034IROZ-T7" H 8150 3450 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Renesas-Intersil/ISL29034IROZ-T7?qs=8B2B7TaMn8TsioejS5SyjA%3D%3D" H 8150 3350 50  0001 L CNN "Mouser Price/Stock"
+	1    7300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RCS1206100RFKEA R1
+U 1 1 5F3F8CD8
+P 6400 4150
+F 0 "R1" H 6750 4375 50  0000 C CNN
+F 1 "RCS1206100RFKEA" H 6750 4284 50  0000 C CNN
+F 2 "RESC3216X65N" H 6950 4200 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 6950 4100 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0.5watt 100ohms 1% 100ppm" H 6950 4000 50  0001 L CNN "Description"
+F 5 "0.65" H 6950 3900 50  0001 L CNN "Height"
+F 6 "Vishay" H 6950 3800 50  0001 L CNN "Manufacturer_Name"
+F 7 "RCS1206100RFKEA" H 6950 3700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "RCS1206100RFKEA" H 6950 3600 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/rcs1206100rfkea/vishay" H 6950 3500 50  0001 L CNN "Arrow Price/Stock"
+F 10 "71-RCS1206100RFKEA" H 6950 3400 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/RCS1206100RFKEA?qs=6AVTNucw1PUJ1aPF5o0Rjw%3D%3D" H 6950 3300 50  0001 L CNN "Mouser Price/Stock"
+	1    6400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:GCG21BR70J106KE01L C1
+U 1 1 5F3F932C
+P 6450 3650
+F 0 "C1" H 6700 3915 50  0000 C CNN
+F 1 "GCG21BR70J106KE01L" H 6700 3824 50  0000 C CNN
+F 2 "CAPC2012X145N" H 6800 3700 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCG21BR70J106KE01%23.html" H 6800 3600 50  0001 L CNN
+F 4 "Capacitor L=2.0mm W=1.25mm T=1.25mm" H 6800 3500 50  0001 L CNN "Description"
+F 5 "1.45" H 6800 3400 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 6800 3300 50  0001 L CNN "Manufacturer_Name"
+F 7 "GCG21BR70J106KE01L" H 6800 3200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "GCG21BR70J106KE01L" H 6800 3100 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/gcg21br70j106ke01l/murata-manufacturing" H 6800 3000 50  0001 L CNN "Arrow Price/Stock"
+F 10 "81-GCG21BR70J106KE1L" H 6800 2900 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GCG21BR70J106KE01L?qs=5aG0NVq1C4zhJk4APuyJ0g%3D%3D" H 6800 2800 50  0001 L CNN "Mouser Price/Stock"
+	1    6450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4150 7250 4150
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5F3FBA75
+P 4300 2250
+F 0 "#PWR0101" H 4300 2100 50  0001 C CNN
+F 1 "+3.3V" H 4315 2423 50  0000 C CNN
+F 2 "" H 4300 2250 50  0001 C CNN
+F 3 "" H 4300 2250 50  0001 C CNN
+	1    4300 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F3FC7B2
+P 4700 2250
+F 0 "#PWR0102" H 4700 2000 50  0001 C CNN
+F 1 "GND" H 4705 2077 50  0000 C CNN
+F 2 "" H 4700 2250 50  0001 C CNN
+F 3 "" H 4700 2250 50  0001 C CNN
+	1    4700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F3FCDD4
+P 4300 2100
+F 0 "#FLG0101" H 4300 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 4300 2273 50  0000 C CNN
+F 2 "" H 4300 2100 50  0001 C CNN
+F 3 "~" H 4300 2100 50  0001 C CNN
+	1    4300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2250 4700 2100
+Wire Wire Line
+	4300 2100 4300 2250
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5F3FE115
+P 5100 4300
+F 0 "#PWR0104" H 5100 4150 50  0001 C CNN
+F 1 "+3.3V" V 5115 4428 50  0000 L CNN
+F 2 "" H 5100 4300 50  0001 C CNN
+F 3 "" H 5100 4300 50  0001 C CNN
+	1    5100 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F3FE76D
+P 5150 4500
+F 0 "#PWR0105" H 5150 4250 50  0001 C CNN
+F 1 "GND" H 5155 4327 50  0000 C CNN
+F 2 "" H 5150 4500 50  0001 C CNN
+F 3 "" H 5150 4500 50  0001 C CNN
+	1    5150 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4500 5150 4400
+Wire Wire Line
+	4850 4400 4900 4400
+Connection ~ 4900 4400
+Wire Wire Line
+	4900 4400 5150 4400
+Wire Wire Line
+	4850 4300 4900 4300
+Connection ~ 4900 4300
+Wire Wire Line
+	4900 4300 5100 4300
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5F3FF39D
+P 6150 4150
+F 0 "#PWR0106" H 6150 4000 50  0001 C CNN
+F 1 "+3.3V" V 6165 4278 50  0000 L CNN
+F 2 "" H 6150 4150 50  0001 C CNN
+F 3 "" H 6150 4150 50  0001 C CNN
+	1    6150 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 4150 6400 4150
+$Comp
+L power:GND #PWR0107
+U 1 1 5F3FFEA5
+P 7150 4250
+F 0 "#PWR0107" H 7150 4000 50  0001 C CNN
+F 1 "GND" V 7155 4122 50  0000 R CNN
+F 2 "" H 7150 4250 50  0001 C CNN
+F 3 "" H 7150 4250 50  0001 C CNN
+	1    7150 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 4250 7300 4250
+Wire Wire Line
+	6950 3650 7250 3650
+Wire Wire Line
+	7250 3650 7250 4150
+Connection ~ 7250 4150
+Wire Wire Line
+	7250 4150 7100 4150
+$Comp
+L power:GND #PWR0108
+U 1 1 5F402AB6
+P 6250 3650
+F 0 "#PWR0108" H 6250 3400 50  0001 C CNN
+F 1 "GND" V 6255 3522 50  0000 R CNN
+F 2 "" H 6250 3650 50  0001 C CNN
+F 3 "" H 6250 3650 50  0001 C CNN
+	1    6250 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 3650 6450 3650
+NoConn ~ 4100 4300
+NoConn ~ 4100 4400
+NoConn ~ 4100 4500
+NoConn ~ 4100 4600
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F403BA6
+P 4700 2100
+F 0 "#FLG0102" H 4700 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 4700 2273 50  0000 C CNN
+F 2 "" H 4700 2100 50  0001 C CNN
+F 3 "~" H 4700 2100 50  0001 C CNN
+	1    4700 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4250 8300 4750
+Wire Wire Line
+	8300 4750 5000 4750
+Wire Wire Line
+	5000 4750 5000 4500
+Wire Wire Line
+	5000 4500 4900 4500
+Wire Wire Line
+	4900 4600 4900 4850
+Wire Wire Line
+	4900 4850 8450 4850
+Wire Wire Line
+	8450 4850 8450 4150
+Wire Wire Line
+	8450 4150 8300 4150
+$EndSCHEMATC

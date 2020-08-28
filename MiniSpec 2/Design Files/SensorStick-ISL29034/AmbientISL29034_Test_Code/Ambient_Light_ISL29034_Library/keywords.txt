@@ -1,0 +1,44 @@
+#######################################
+# Syntax Coloring Map For FaBoAmbientLight-ISL29034-Library
+#######################################
+
+#######################################
+# Class (KEYWORD1)
+#######################################
+
+FaBoAmbientLight	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+searchDevice	KEYWORD2
+setOperation	KEYWORD2
+setRange	KEYWORD2
+setResolution	KEYWORD2
+readADC	KEYWORD2
+readLux	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ISL29034_SLAVE_ADDRESS	LITERAL1
+ISL29034_DEVICE_ID	LITERAL1
+ISL29034_REG_CMD1	LITERAL1
+ISL29034_REG_CMD2	LITERAL1
+ISL29034_REG_DATA_L	LITERAL1
+ISL29034_REG_DATA_H	LITERAL1
+ISL29034_REG_ID	LITERAL1
+ISL29034_OP_PWR_DOWN	LITERAL1
+ISL29034_OP_ALS_CONT	LITERAL1
+ISL29034_FS_0	LITERAL1
+ISL29034_FS_1	LITERAL1
+ISL29034_FS_2	LITERAL1
+ISL29034_FS_3	LITERAL1
+ISL29034_RES_16	LITERAL1
+ISL29034_RES_12	LITERAL1
+ISL29034_RES_8	LITERAL1
+ISL29034_RES_4	LITERAL1
+ISL29034_ID_MASK	LITERAL1

@@ -1,0 +1,118 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_AL5809-20P1-7
+#
+DEF SamacSys_Parts_AL5809-20P1-7 IC 0 30 Y Y 1 F N
+F0 "IC" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_AL5809-20P1-7" 650 200 50 H V L CNN
+F2 "SODFL3718X100N" 650 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AL5809.pdf" 650 0 50 H I L CNN
+F4 "LED Lighting Drivers LED HV Int Switch" 650 -100 50 H I L CNN "Description"
+F5 "1" 650 -200 50 H I L CNN "Height"
+F6 "Diodes Inc." 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AL5809-20P1-7" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "AL5809-20P1-7" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/al5809-20p1-7/diodes-incorporated" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "621-AL5809-20P1-7" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL5809-20P1-7?qs=9BjnSzo86S%252BJEo7jKmhSEQ%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X K 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_TSM-104-02-S-DV-P-TR
+#
+DEF SamacSys_Parts_TSM-104-02-S-DV-P-TR J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_TSM-104-02-S-DV-P-TR" 650 200 50 H V L CNN
+F2 "TSM-104-YY-ZZZ-DV-P-TR" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf" 650 0 50 H I L CNN
+F4 "8 Position, Dual-Row, .100&quot; Surface Mount Terminal Strip" 650 -100 50 H I L CNN "Description"
+F5 "SAMTEC" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "TSM-104-02-S-DV-P-TR" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "TSM-104-02-S-DV-P-TR" 650 -500 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/tsm-104-02-s-dv-p-tr/samtec" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F9 "200-TSM10402SDVPTR" 650 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.co.uk/ProductDetail/Samtec/TSM-104-02-S-DV-P-TR?qs=0lQeLiL1qyYnr3uHEjAxRw%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 800 -300 200 L 50 50 0 0 P
+X 2 2 0 -300 200 R 50 50 0 0 P
+X 3 3 800 -200 200 L 50 50 0 0 P
+X 4 4 0 -200 200 R 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+X 6 6 0 -100 200 R 50 50 0 0 P
+X 7 7 800 0 200 L 50 50 0 0 P
+X 8 8 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library
