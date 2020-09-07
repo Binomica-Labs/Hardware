@@ -62,7 +62,7 @@ void configureSensor()
 {
 	OPT3002_Config newConfig;
 
-	newConfig.RangeNumber = B1000;    //B0111 enables up to 628,992 nW/cm2, use B1000 for the 10mm cuvette since light is closer to sensor
+	newConfig.RangeNumber = B0111;    //B0111 enables up to 628,992 nW/cm2, use B1000 for the 10mm cuvette since light is closer to sensor
 	newConfig.ConvertionTime = B1;
 	newConfig.Latch = B1;
 	newConfig.ModeOfConversionOperation = B10;
