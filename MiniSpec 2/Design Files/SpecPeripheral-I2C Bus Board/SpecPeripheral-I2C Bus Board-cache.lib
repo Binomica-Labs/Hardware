@@ -1,0 +1,185 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SamacSys_Parts_GRM31CR70J106KA01L
+#
+DEF SamacSys_Parts_GRM31CR70J106KA01L C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SamacSys_Parts_GRM31CR70J106KA01L" 350 150 50 H V L CNN
+F2 "CAPC3216X180N" 350 50 50 H I L CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" 350 -50 50 H I L CNN
+F4 "1206 X7R ceramic capacitor,10uF 6.3V Murata 1206 GRM 10uF Ceramic Multilayer Capacitor, 6.3 V dc, +125C, X7R Dielectric, +/-10% SMD" 350 -150 50 H I L CNN "Description"
+F5 "1.8" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "GRM31CR70J106KA01L" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "GRM31CR70J106KA01L" 350 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/grm31cr70j106ka01l/murata-manufacturing" 350 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "81-GRM426X106K6.3L" 350 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM426X106K6.3L" 350 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_M20-7910442R
+#
+DEF SamacSys_Parts_M20-7910442R J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_M20-7910442R" 650 200 50 H V L CNN
+F2 "M207910442R" 650 100 50 H I L CNN
+F3 "https://cdn.harwin.com/pdfs/M20-791R.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings 4 WAY SIL HORIZ SMT SKT T&R" 650 -100 50 H I L CNN "Description"
+F5 "2.65" 650 -200 50 H I L CNN "Height"
+F6 "Harwin" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "M20-7910442R" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "M20-7910442R" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "855-M20-7910442R" 650 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7910442R?qs=k41KVqW3ymrGT4VqB8J8Xw%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_RC1206FR-0710KL
+#
+DEF SamacSys_Parts_RC1206FR-0710KL R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "SamacSys_Parts_RC1206FR-0710KL" 550 150 50 H V L CNN
+F2 "RESC3116X65N" 550 50 50 H I L CNN
+F3 "https://www.sos.sk/productdata/35/10/4/35104/RC1206.pdf" 550 -50 50 H I L CNN
+F4 "GENERAL PURPOSE CHIP RESISTORS" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "YAGEO (PHYCOMP)" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "RC1206FR-0710KL" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "RC1206FR-0710KL" 550 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/rc1206fr-0710kl/yageo" 550 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "603-RC1206FR-0710KL" 550 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-RC1206FR-0710KL" 550 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_SSM-104-F-DV
+#
+DEF SamacSys_Parts_SSM-104-F-DV J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_SSM-104-F-DV" 650 200 50 H V L CNN
+F2 "SSM-104-XXX-DV" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf" 650 0 50 H I L CNN
+F4 "8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&quot; pitch" 650 -100 50 H I L CNN "Description"
+F5 "SAMTEC" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "SSM-104-F-DV" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "SSM-104-F-DV" 650 -500 50 H I L CNN "Arrow Part Number"
+F8 "200-SSM104FDV" 650 -700 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-F-DV?qs=rU5fayqh%252BE1VcPc15WZEOQ%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 -300 200 R 50 50 0 0 P
+X 2 2 800 -300 200 L 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 -200 200 L 50 50 0 0 P
+X 5 5 0 -100 200 R 50 50 0 0 P
+X 6 6 800 -100 200 L 50 50 0 0 P
+X 7 7 0 0 200 R 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_TCA9548APWR
+#
+DEF SamacSys_Parts_TCA9548APWR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_TCA9548APWR" 1050 200 50 H V L CNN
+F2 "SOP65P640X120-24N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" 1050 0 50 H I L CNN
+F4 "TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24" 1050 -100 50 H I L CNN "Description"
+F5 "1.2" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TCA9548APWR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "TCA9548APWR" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/tca9548apwr/texas-instruments" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "595-TCA9548APWR" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCA9548APWR?qs=iFaFN7AS2WF%252BqSiJMbdYwQ%3D%3D" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -1200 200 -1200 200 100 N
+X A0 1 0 0 200 R 50 50 0 0 P
+X SD3 10 0 -900 200 R 50 50 0 0 P
+X SC3 11 0 -1000 200 R 50 50 0 0 P
+X GND 12 0 -1100 200 R 50 50 0 0 P
+X SD4 13 1200 -1100 200 L 50 50 0 0 P
+X SC4 14 1200 -1000 200 L 50 50 0 0 P
+X SD5 15 1200 -900 200 L 50 50 0 0 P
+X SC5 16 1200 -800 200 L 50 50 0 0 P
+X SD6 17 1200 -700 200 L 50 50 0 0 P
+X SC6 18 1200 -600 200 L 50 50 0 0 P
+X SD7 19 1200 -500 200 L 50 50 0 0 P
+X A1 2 0 -100 200 R 50 50 0 0 P
+X SC7 20 1200 -400 200 L 50 50 0 0 P
+X A2 21 1200 -300 200 L 50 50 0 0 P
+X SCL 22 1200 -200 200 L 50 50 0 0 P
+X SDA 23 1200 -100 200 L 50 50 0 0 P
+X VCC 24 1200 0 200 L 50 50 0 0 P
+X ~RESET 3 0 -200 200 R 50 50 0 0 P
+X SD0 4 0 -300 200 R 50 50 0 0 P
+X SC0 5 0 -400 200 R 50 50 0 0 P
+X SD1 6 0 -500 200 R 50 50 0 0 P
+X SC1 7 0 -600 200 R 50 50 0 0 P
+X SD2 8 0 -700 200 R 50 50 0 0 P
+X SC2 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
