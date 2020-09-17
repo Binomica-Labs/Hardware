@@ -577,9 +577,6 @@ Wire Wire Line
 	4000 2850 3800 2850
 Wire Wire Line
 	4000 2950 3800 2950
-NoConn ~ 2600 1850
-NoConn ~ 2600 1950
-NoConn ~ 3800 2150
 Wire Wire Line
 	2450 2050 2600 2050
 Wire Wire Line
@@ -674,5 +671,30 @@ F 10 "855-M20-7910442R" H 5900 2400 50  0001 L CNN "Mouser Part Number"
 F 11 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7910442R?qs=k41KVqW3ymrGT4VqB8J8Xw%3D%3D" H 5900 2300 50  0001 L CNN "Mouser Price/Stock"
 	1    5250 3100
 	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F612DB1
+P 2600 1850
+F 0 "#PWR?" H 2600 1600 50  0001 C CNN
+F 1 "GND" H 2605 1677 50  0000 C CNN
+F 2 "" H 2600 1850 50  0001 C CNN
+F 3 "" H 2600 1850 50  0001 C CNN
+	1    2600 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 1950 2600 1850
+Connection ~ 2600 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5F615BFB
+P 3800 2150
+F 0 "#PWR?" H 3800 1900 50  0001 C CNN
+F 1 "GND" V 3805 2022 50  0000 R CNN
+F 2 "" H 3800 2150 50  0001 C CNN
+F 3 "" H 3800 2150 50  0001 C CNN
+	1    3800 2150
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
