@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "SpecPeripheral I2C Bus Board"
+Date "2020-09-20"
+Rev "A"
+Comp "Binomica Labs"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -673,10 +673,10 @@ F 11 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7910442R?qs=k41KVqW3ymrG
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 5F612DB1
 P 2600 1850
-F 0 "#PWR?" H 2600 1600 50  0001 C CNN
+F 0 "#PWR0124" H 2600 1600 50  0001 C CNN
 F 1 "GND" H 2605 1677 50  0000 C CNN
 F 2 "" H 2600 1850 50  0001 C CNN
 F 3 "" H 2600 1850 50  0001 C CNN
@@ -687,10 +687,10 @@ Wire Wire Line
 	2600 1950 2600 1850
 Connection ~ 2600 1850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 5F615BFB
 P 3800 2150
-F 0 "#PWR?" H 3800 1900 50  0001 C CNN
+F 0 "#PWR0125" H 3800 1900 50  0001 C CNN
 F 1 "GND" V 3805 2022 50  0000 R CNN
 F 2 "" H 3800 2150 50  0001 C CNN
 F 3 "" H 3800 2150 50  0001 C CNN

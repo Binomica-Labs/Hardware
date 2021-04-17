@@ -1,0 +1,388 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5F3F66CD
+P 3250 5400
+F 0 "J1" H 3300 5350 50  0000 C CNN
+F 1 "M20-8770642R" H 3650 5574 50  0001 C CNN
+F 2 "SamacSys_Parts:SSM-104-XXX-DV" H 3900 5500 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-877R.pdf" H 3900 5400 50  0001 L CNN
+F 4 "Headers & Wire Housings 06 SIL VERT SMT HDR 450/RL" H 3900 5300 50  0001 L CNN "Description"
+F 5 "8" H 3900 5200 50  0001 L CNN "Height"
+F 6 "Harwin" H 3900 5100 50  0001 L CNN "Manufacturer_Name"
+F 7 "M20-8770642R" H 3900 5000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "M20-8770642R" H 3900 4900 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 3900 4800 50  0001 L CNN "Arrow Price/Stock"
+F 10 "855-M20-8770642R" H 3900 4700 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-8770642R?qs=gf2s0yP%252B7ben%2FW8SSrDDMw%3D%3D" H 3900 4600 50  0001 L CNN "Mouser Price/Stock"
+	1    3250 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J2
+U 1 1 5F3F7DBB
+P 5300 5250
+F 0 "J2" H 5350 5200 50  0000 C CNN
+F 1 "M20-8770642R" H 5700 4876 50  0001 C CNN
+F 2 "SamacSys_Parts:SSM-104-XXX-DV" H 5950 5350 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-877R.pdf" H 5950 5250 50  0001 L CNN
+F 4 "Headers & Wire Housings 06 SIL VERT SMT HDR 450/RL" H 5950 5150 50  0001 L CNN "Description"
+F 5 "8" H 5950 5050 50  0001 L CNN "Height"
+F 6 "Harwin" H 5950 4950 50  0001 L CNN "Manufacturer_Name"
+F 7 "M20-8770642R" H 5950 4850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "M20-8770642R" H 5950 4750 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 5950 4650 50  0001 L CNN "Arrow Price/Stock"
+F 10 "855-M20-8770642R" H 5950 4550 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-8770642R?qs=gf2s0yP%252B7ben%2FW8SSrDDMw%3D%3D" H 5950 4450 50  0001 L CNN "Mouser Price/Stock"
+	1    5300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F458194
+P 4550 1750
+F 0 "#PWR0102" H 4550 1500 50  0001 C CNN
+F 1 "GND" H 4555 1577 50  0000 C CNN
+F 2 "" H 4550 1750 50  0001 C CNN
+F 3 "" H 4550 1750 50  0001 C CNN
+	1    4550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F4586A4
+P 4550 1550
+F 0 "#FLG0101" H 4550 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 4550 1723 50  0000 C CNN
+F 2 "" H 4550 1550 50  0001 C CNN
+F 3 "~" H 4550 1550 50  0001 C CNN
+	1    4550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F458890
+P 4100 1550
+F 0 "#FLG0102" H 4100 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 4100 1723 50  0000 C CNN
+F 2 "" H 4100 1550 50  0001 C CNN
+F 3 "~" H 4100 1550 50  0001 C CNN
+	1    4100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1550 4100 1750
+Wire Wire Line
+	4550 1550 4550 1750
+Wire Wire Line
+	4850 5150 5100 5150
+Wire Wire Line
+	4550 5250 5100 5250
+Text GLabel 4850 5150 0    50   Input ~ 0
+SDA
+Text GLabel 4550 5250 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	5100 5450 4900 5450
+Wire Wire Line
+	5100 5350 4850 5350
+$Comp
+L power:GND #PWR0108
+U 1 1 5F465090
+P 4850 5350
+F 0 "#PWR0108" H 4850 5100 50  0001 C CNN
+F 1 "GND" H 4855 5177 50  0000 C CNN
+F 2 "" H 4850 5350 50  0001 C CNN
+F 3 "" H 4850 5350 50  0001 C CNN
+	1    4850 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F61031B
+P 2650 5350
+F 0 "#PWR0101" H 2650 5100 50  0001 C CNN
+F 1 "GND" V 2655 5222 50  0000 R CNN
+F 2 "" H 2650 5350 50  0001 C CNN
+F 3 "" H 2650 5350 50  0001 C CNN
+	1    2650 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 5200 2950 5300
+Connection ~ 2950 5300
+Wire Wire Line
+	2950 5300 2950 5350
+Connection ~ 2950 5400
+Wire Wire Line
+	2950 5400 2950 5500
+Wire Wire Line
+	2950 5350 2650 5350
+Connection ~ 2950 5350
+Wire Wire Line
+	2950 5350 2950 5400
+Wire Wire Line
+	5600 5150 5600 5250
+Connection ~ 5600 5250
+Wire Wire Line
+	5600 5250 5600 5300
+Connection ~ 5600 5350
+Wire Wire Line
+	5600 5350 5600 5450
+$Comp
+L power:GND #PWR0103
+U 1 1 5F611F13
+P 5900 5300
+F 0 "#PWR0103" H 5900 5050 50  0001 C CNN
+F 1 "GND" V 5905 5172 50  0000 R CNN
+F 2 "" H 5900 5300 50  0001 C CNN
+F 3 "" H 5900 5300 50  0001 C CNN
+	1    5900 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 5300 5900 5300
+Connection ~ 5600 5300
+Wire Wire Line
+	5600 5300 5600 5350
+Wire Wire Line
+	3700 5500 3450 5500
+Wire Wire Line
+	4000 5400 3450 5400
+Text GLabel 3700 5500 2    50   Input ~ 0
+SDA
+Text GLabel 4000 5400 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	3450 5200 3650 5200
+Wire Wire Line
+	3450 5300 3700 5300
+$Comp
+L power:GND #PWR0105
+U 1 1 5F6131D6
+P 3700 5300
+F 0 "#PWR0105" H 3700 5050 50  0001 C CNN
+F 1 "GND" H 3705 5127 50  0000 C CNN
+F 2 "" H 3700 5300 50  0001 C CNN
+F 3 "" H 3700 5300 50  0001 C CNN
+	1    3700 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduino:Arduino_Nano_Socket XA1
+U 1 1 5F69A338
+P 4300 3600
+F 0 "XA1" H 4300 4837 60  0000 C CNN
+F 1 "Arduino_Nano_Socket" H 4300 4731 60  0000 C CNN
+F 2 "arduino-kicad-library-master:Arduino_Nano" H 6100 7350 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-nano" H 6100 7350 60  0001 C CNN
+	1    4300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5F69B47C
+P 4100 1750
+F 0 "#PWR0106" H 4100 1600 50  0001 C CNN
+F 1 "+5V" H 4115 1923 50  0000 C CNN
+F 2 "" H 4100 1750 50  0001 C CNN
+F 3 "" H 4100 1750 50  0001 C CNN
+	1    4100 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5F69BB57
+P 3650 5200
+F 0 "#PWR0107" H 3650 5050 50  0001 C CNN
+F 1 "+5V" H 3665 5373 50  0000 C CNN
+F 2 "" H 3650 5200 50  0001 C CNN
+F 3 "" H 3650 5200 50  0001 C CNN
+	1    3650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 5F69D9CF
+P 4900 5450
+F 0 "#PWR0110" H 4900 5300 50  0001 C CNN
+F 1 "+5V" H 4915 5623 50  0000 C CNN
+F 2 "" H 4900 5450 50  0001 C CNN
+F 3 "" H 4900 5450 50  0001 C CNN
+	1    4900 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5F69E3BF
+P 3000 4400
+F 0 "#PWR0111" H 3000 4250 50  0001 C CNN
+F 1 "+5V" H 3015 4573 50  0000 C CNN
+F 2 "" H 3000 4400 50  0001 C CNN
+F 3 "" H 3000 4400 50  0001 C CNN
+	1    3000 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5F69EF37
+P 2900 4100
+F 0 "#PWR0112" H 2900 3850 50  0001 C CNN
+F 1 "GND" V 2905 3972 50  0000 R CNN
+F 2 "" H 2900 4100 50  0001 C CNN
+F 3 "" H 2900 4100 50  0001 C CNN
+	1    2900 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5F69F262
+P 2900 4200
+F 0 "#PWR0113" H 2900 3950 50  0001 C CNN
+F 1 "GND" V 2905 4072 50  0000 R CNN
+F 2 "" H 2900 4200 50  0001 C CNN
+F 3 "" H 2900 4200 50  0001 C CNN
+	1    2900 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 4100 3000 4100
+Wire Wire Line
+	2900 4200 3000 4200
+Text GLabel 2850 3400 0    50   Input ~ 0
+SDA
+Text GLabel 2850 3300 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	3000 3300 2850 3300
+Wire Wire Line
+	3000 3400 2850 3400
+NoConn ~ 3000 4300
+NoConn ~ 3000 4500
+NoConn ~ 3000 3900
+NoConn ~ 3000 3800
+NoConn ~ 3000 3700
+NoConn ~ 3000 3600
+NoConn ~ 3000 3500
+NoConn ~ 3000 3200
+NoConn ~ 3000 3100
+NoConn ~ 5600 2700
+NoConn ~ 5600 2800
+NoConn ~ 5600 2900
+NoConn ~ 5600 3000
+NoConn ~ 5600 3100
+NoConn ~ 5600 3200
+NoConn ~ 5600 3300
+NoConn ~ 5600 3400
+NoConn ~ 5600 3500
+NoConn ~ 5600 3600
+NoConn ~ 5600 3700
+NoConn ~ 5600 3800
+NoConn ~ 5600 4300
+NoConn ~ 5600 4400
+$Comp
+L SamacSys_Parts:TSM-104-01-T-DH-P-TR J3
+U 1 1 5F6B3F7E
+P 7200 3150
+F 0 "J3" H 7600 3000 50  0000 C CNN
+F 1 "TSM-104-01-T-DH-P-TR" H 7600 3324 50  0001 C CNN
+F 2 "TSM-104-ZZ-YYY-DH-P-TR" H 7850 3250 50  0001 L CNN
+F 3 "http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-xx-xxx-xx-mkt1.pdf" H 7850 3150 50  0001 L CNN
+F 4 "8 Position, .100&quot; Surface Mount Terminal Strip" H 7850 3050 50  0001 L CNN "Description"
+F 5 "" H 7850 2950 50  0001 L CNN "Height"
+F 6 "SAMTEC" H 7850 2850 50  0001 L CNN "Manufacturer_Name"
+F 7 "TSM-104-01-T-DH-P-TR" H 7850 2750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "TSM-104-01-T-DH-P-TR" H 7850 2650 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/tsm-104-01-t-dh-p-tr/samtec" H 7850 2550 50  0001 L CNN "Arrow Price/Stock"
+F 10 "200-TSM10401TDHPTR" H 7850 2450 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Samtec/TSM-104-01-T-DH-P-TR?qs=Cqqh%252BS766wmXHiiGBc7RGg%3D%3D" H 7850 2350 50  0001 L CNN "Mouser Price/Stock"
+	1    7200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3450 8000 3450
+Wire Wire Line
+	8550 3350 8000 3350
+Text GLabel 8250 3450 2    50   Input ~ 0
+SDA
+Text GLabel 8550 3350 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	8000 3150 8200 3150
+Wire Wire Line
+	8000 3250 8250 3250
+$Comp
+L power:GND #PWR0104
+U 1 1 5F6B5CF3
+P 8250 3250
+F 0 "#PWR0104" H 8250 3000 50  0001 C CNN
+F 1 "GND" H 8255 3077 50  0000 C CNN
+F 2 "" H 8250 3250 50  0001 C CNN
+F 3 "" H 8250 3250 50  0001 C CNN
+	1    8250 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5F6B5CF9
+P 8200 3150
+F 0 "#PWR0109" H 8200 3000 50  0001 C CNN
+F 1 "+5V" H 8215 3323 50  0000 C CNN
+F 2 "" H 8200 3150 50  0001 C CNN
+F 3 "" H 8200 3150 50  0001 C CNN
+	1    8200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 5F6B6579
+P 7200 3150
+F 0 "#PWR0114" H 7200 3000 50  0001 C CNN
+F 1 "+5V" H 7215 3323 50  0000 C CNN
+F 2 "" H 7200 3150 50  0001 C CNN
+F 3 "" H 7200 3150 50  0001 C CNN
+	1    7200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F6D277B
+P 7200 3250
+F 0 "#PWR?" H 7200 3000 50  0001 C CNN
+F 1 "GND" V 7205 3122 50  0000 R CNN
+F 2 "" H 7200 3250 50  0001 C CNN
+F 3 "" H 7200 3250 50  0001 C CNN
+	1    7200 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 7050 3350 0    50   Input ~ 0
+BTN1
+Text GLabel 7050 3450 0    50   Input ~ 0
+BTN2
+Text GLabel 2850 2700 0    50   Input ~ 0
+BTN1
+Text GLabel 2850 2800 0    50   Input ~ 0
+BTN2
+Wire Wire Line
+	3000 2700 2850 2700
+Wire Wire Line
+	3000 2800 2850 2800
+Wire Wire Line
+	7050 3350 7200 3350
+Wire Wire Line
+	7200 3450 7050 3450
+$EndSCHEMATC

@@ -1,0 +1,298 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D4
+U 1 1 5FE90C5E
+P 5650 4550
+F 0 "D4" H 5643 4767 50  0000 C CNN
+F 1 "LED" H 5643 4676 50  0000 C CNN
+F 2 "" H 5650 4550 50  0001 C CNN
+F 3 "~" H 5650 4550 50  0001 C CNN
+	1    5650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:TSM-104-01-T-SH J1
+U 1 1 5FE915B9
+P 5250 2500
+F 0 "J1" V 5588 2072 50  0000 R CNN
+F 1 "TSM-104-01-T-SH" V 5497 2072 50  0000 R CNN
+F 2 "TSM-104-YY-ZZZ-SH" H 5900 2600 50  0001 L CNN
+F 3 "http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf" H 5900 2500 50  0001 L CNN
+F 4 "4 Position, Dual-Row, .100&quot; Surface Mount Terminal Strip, Single-Row Vertical" H 5900 2400 50  0001 L CNN "Description"
+F 5 "" H 5900 2300 50  0001 L CNN "Height"
+F 6 "SAMTEC" H 5900 2200 50  0001 L CNN "Manufacturer_Name"
+F 7 "TSM-104-01-T-SH" H 5900 2100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "200-TSM10401TSH" H 5900 2000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Samtec/TSM-104-01-T-SH/?qs=0lQeLiL1qybA%2Fs2GzHyc2Q%3D%3D" H 5900 1900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TSM-104-01-T-SH" H 5900 1800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tsm-104-01-t-sh/samtec" H 5900 1700 50  0001 L CNN "Arrow Price/Stock"
+	1    5250 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:SMH-104-02-G-S J2
+U 1 1 5FE92F60
+P 5550 5200
+F 0 "J2" V 5796 5328 50  0000 L CNN
+F 1 "SMH-104-02-G-S" V 5887 5328 50  0000 L CNN
+F 2 "SMH-104-02-XX-S" H 6200 5300 50  0001 L CNN
+F 3 "http://suddendocs.samtec.com/prints/smh-1xx-xx-xx-x-xx-mkt.pdf" H 6200 5200 50  0001 L CNN
+F 4 ".100&quot; Horizontal Surface Mount Socket Strip" H 6200 5100 50  0001 L CNN "Description"
+F 5 "" H 6200 5000 50  0001 L CNN "Height"
+F 6 "SAMTEC" H 6200 4900 50  0001 L CNN "Manufacturer_Name"
+F 7 "SMH-104-02-G-S" H 6200 4800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "200-SMH10402GS" H 6200 4700 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Samtec/SMH-104-02-G-S/?qs=rU5fayqh%252BE02Ct0yi%252BGD%252Bw%3D%3D" H 6200 4600 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SMH-104-02-G-S" H 6200 4500 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/smh-104-02-g-s/samtec" H 6200 4400 50  0001 L CNN "Arrow Price/Stock"
+	1    5550 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FE93937
+P 5200 3500
+F 0 "R1" V 5407 3500 50  0000 C CNN
+F 1 "R" V 5316 3500 50  0000 C CNN
+F 2 "" V 5130 3500 50  0001 C CNN
+F 3 "~" H 5200 3500 50  0001 C CNN
+	1    5200 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FE93F48
+P 5200 3850
+F 0 "R2" V 5407 3850 50  0000 C CNN
+F 1 "R" V 5316 3850 50  0000 C CNN
+F 2 "" V 5130 3850 50  0001 C CNN
+F 3 "~" H 5200 3850 50  0001 C CNN
+	1    5200 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FE94115
+P 5200 4200
+F 0 "R3" V 5407 4200 50  0000 C CNN
+F 1 "R" V 5316 4200 50  0000 C CNN
+F 2 "" V 5130 4200 50  0001 C CNN
+F 3 "~" H 5200 4200 50  0001 C CNN
+	1    5200 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FE9421C
+P 5200 4550
+F 0 "R4" V 5407 4550 50  0000 C CNN
+F 1 "R" V 5316 4550 50  0000 C CNN
+F 2 "" V 5130 4550 50  0001 C CNN
+F 3 "~" H 5200 4550 50  0001 C CNN
+	1    5200 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5FE94AC8
+P 5650 3500
+F 0 "D1" H 5643 3717 50  0000 C CNN
+F 1 "LED" H 5643 3626 50  0000 C CNN
+F 2 "" H 5650 3500 50  0001 C CNN
+F 3 "~" H 5650 3500 50  0001 C CNN
+	1    5650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5FE94F68
+P 5650 3850
+F 0 "D2" H 5643 4067 50  0000 C CNN
+F 1 "LED" H 5643 3976 50  0000 C CNN
+F 2 "" H 5650 3850 50  0001 C CNN
+F 3 "~" H 5650 3850 50  0001 C CNN
+	1    5650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5FE9528B
+P 5650 4200
+F 0 "D3" H 5643 4417 50  0000 C CNN
+F 1 "LED" H 5643 4326 50  0000 C CNN
+F 2 "" H 5650 4200 50  0001 C CNN
+F 3 "~" H 5650 4200 50  0001 C CNN
+	1    5650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3500 5350 3500
+Wire Wire Line
+	5500 3850 5350 3850
+Wire Wire Line
+	5500 4200 5350 4200
+Wire Wire Line
+	5500 4550 5350 4550
+Wire Wire Line
+	5050 4550 5050 4200
+Connection ~ 5050 3850
+Wire Wire Line
+	5050 3850 5050 3500
+Connection ~ 5050 4200
+Wire Wire Line
+	5050 4200 5050 3850
+Wire Wire Line
+	5800 4550 5800 4200
+Connection ~ 5800 3850
+Wire Wire Line
+	5800 3850 5800 3500
+Connection ~ 5800 4200
+Wire Wire Line
+	5800 4200 5800 3850
+$Comp
+L power:+5V #PWR0101
+U 1 1 5FE9ADB8
+P 3950 2600
+F 0 "#PWR0101" H 3950 2450 50  0001 C CNN
+F 1 "+5V" H 3965 2773 50  0000 C CNN
+F 2 "" H 3950 2600 50  0001 C CNN
+F 3 "" H 3950 2600 50  0001 C CNN
+	1    3950 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FE9B8D1
+P 4400 2650
+F 0 "#PWR0102" H 4400 2400 50  0001 C CNN
+F 1 "GND" H 4405 2477 50  0000 C CNN
+F 2 "" H 4400 2650 50  0001 C CNN
+F 3 "" H 4400 2650 50  0001 C CNN
+	1    4400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FE9BBC5
+P 3950 2400
+F 0 "#FLG0101" H 3950 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 2573 50  0000 C CNN
+F 2 "" H 3950 2400 50  0001 C CNN
+F 3 "~" H 3950 2400 50  0001 C CNN
+	1    3950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FE9C2C1
+P 4400 2400
+F 0 "#FLG0102" H 4400 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 4400 2573 50  0000 C CNN
+F 2 "" H 4400 2400 50  0001 C CNN
+F 3 "~" H 4400 2400 50  0001 C CNN
+	1    4400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2600 3950 2400
+Wire Wire Line
+	4400 2650 4400 2400
+$Comp
+L power:GND #PWR0103
+U 1 1 5FE9CD0D
+P 5800 3150
+F 0 "#PWR0103" H 5800 2900 50  0001 C CNN
+F 1 "GND" H 5805 2977 50  0000 C CNN
+F 2 "" H 5800 3150 50  0001 C CNN
+F 3 "" H 5800 3150 50  0001 C CNN
+	1    5800 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5FE9DBA8
+P 5050 3150
+F 0 "#PWR0104" H 5050 3000 50  0001 C CNN
+F 1 "+5V" H 5065 3323 50  0000 C CNN
+F 2 "" H 5050 3150 50  0001 C CNN
+F 3 "" H 5050 3150 50  0001 C CNN
+	1    5050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3150 5800 3500
+Connection ~ 5800 3500
+Wire Wire Line
+	5050 3150 5050 3500
+Connection ~ 5050 3500
+$Comp
+L power:GND #PWR0105
+U 1 1 5FEA03F3
+P 5550 2600
+F 0 "#PWR0105" H 5550 2350 50  0001 C CNN
+F 1 "GND" H 5555 2427 50  0000 C CNN
+F 2 "" H 5550 2600 50  0001 C CNN
+F 3 "" H 5550 2600 50  0001 C CNN
+	1    5550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5FEA0812
+P 5550 5100
+F 0 "#PWR0106" H 5550 4850 50  0001 C CNN
+F 1 "GND" H 5555 4927 50  0000 C CNN
+F 2 "" H 5550 5100 50  0001 C CNN
+F 3 "" H 5550 5100 50  0001 C CNN
+	1    5550 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5FEA1047
+P 5250 5100
+F 0 "#PWR0107" H 5250 4950 50  0001 C CNN
+F 1 "+5V" H 5265 5273 50  0000 C CNN
+F 2 "" H 5250 5100 50  0001 C CNN
+F 3 "" H 5250 5100 50  0001 C CNN
+	1    5250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5FEA1BAF
+P 5250 2600
+F 0 "#PWR0108" H 5250 2450 50  0001 C CNN
+F 1 "+5V" H 5265 2773 50  0000 C CNN
+F 2 "" H 5250 2600 50  0001 C CNN
+F 3 "" H 5250 2600 50  0001 C CNN
+	1    5250 2600
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5350 2500
+NoConn ~ 5450 2500
+NoConn ~ 5350 5200
+NoConn ~ 5450 5200
+Wire Wire Line
+	5250 5200 5250 5100
+Wire Wire Line
+	5550 5200 5550 5100
+Wire Wire Line
+	5250 2600 5250 2500
+Wire Wire Line
+	5550 2600 5550 2500
+$EndSCHEMATC

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\scoci\Documents\GitHub\Hardware\MiniSpec 2\Design Files\SpecPeripheral-I2C Bus Board\SpecPeripheral-I2C Bus Board.sch</source>
+    <date>9/20/2020 4:36:14 PM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SpecPeripheral-I2C Bus Board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>SSM-104-F-DV</value>
+      <footprint>SSM-104-XXX-DV</footprint>
+      <datasheet>http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SSM-104-F-DV</field>
+        <field name="Description">8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch</field>
+        <field name="Manufacturer_Name">SAMTEC</field>
+        <field name="Manufacturer_Part_Number">SSM-104-F-DV</field>
+        <field name="Mouser Part Number">200-SSM104FDV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-F-DV?qs=rU5fayqh%252BE1VcPc15WZEOQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SSM-104-F-DV" description="8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F586769</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>SSM-104-F-DV</value>
+      <footprint>SSM-104-XXX-DV</footprint>
+      <datasheet>http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SSM-104-F-DV</field>
+        <field name="Description">8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch</field>
+        <field name="Manufacturer_Name">SAMTEC</field>
+        <field name="Manufacturer_Part_Number">SSM-104-F-DV</field>
+        <field name="Mouser Part Number">200-SSM104FDV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-F-DV?qs=rU5fayqh%252BE1VcPc15WZEOQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SSM-104-F-DV" description="8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5873EE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>SSM-104-F-DV</value>
+      <footprint>SSM-104-XXX-DV</footprint>
+      <datasheet>http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SSM-104-F-DV</field>
+        <field name="Description">8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch</field>
+        <field name="Manufacturer_Name">SAMTEC</field>
+        <field name="Manufacturer_Part_Number">SSM-104-F-DV</field>
+        <field name="Mouser Part Number">200-SSM104FDV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-F-DV?qs=rU5fayqh%252BE1VcPc15WZEOQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SSM-104-F-DV" description="8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F58825D</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>SSM-104-F-DV</value>
+      <footprint>SSM-104-XXX-DV</footprint>
+      <datasheet>http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SSM-104-F-DV</field>
+        <field name="Description">8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch</field>
+        <field name="Manufacturer_Name">SAMTEC</field>
+        <field name="Manufacturer_Part_Number">SSM-104-F-DV</field>
+        <field name="Mouser Part Number">200-SSM104FDV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-F-DV?qs=rU5fayqh%252BE1VcPc15WZEOQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SSM-104-F-DV" description="8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F588D38</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>TCA9548APWR</value>
+      <footprint>SOP65P640X120-24N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tca9548a.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TCA9548APWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tca9548apwr/texas-instruments</field>
+        <field name="Description">TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TCA9548APWR</field>
+        <field name="Mouser Part Number">595-TCA9548APWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCA9548APWR?qs=iFaFN7AS2WF%252BqSiJMbdYwQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TCA9548APWR" description="TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F58A0E1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>RESC3116X65N</footprint>
+      <datasheet>https://www.sos.sk/productdata/35/10/4/35104/RC1206.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">RC1206FR-0710KL</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/rc1206fr-0710kl/yageo</field>
+        <field name="Description">GENERAL PURPOSE CHIP RESISTORS</field>
+        <field name="Height">0.65</field>
+        <field name="Manufacturer_Name">YAGEO (PHYCOMP)</field>
+        <field name="Manufacturer_Part_Number">RC1206FR-0710KL</field>
+        <field name="Mouser Part Number">603-RC1206FR-0710KL</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=603-RC1206FR-0710KL</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="RC1206FR-0710KL" description="GENERAL PURPOSE CHIP RESISTORS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5F19D1</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>qw</value>
+      <footprint>CAPC3216X180N</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">GRM31CR70J106KA01L</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm31cr70j106ka01l/murata-manufacturing</field>
+        <field name="Description">1206 X7R ceramic capacitor,10uF 6.3V Murata 1206 GRM 10uF Ceramic Multilayer Capacitor, 6.3 V dc, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM31CR70J106KA01L</field>
+        <field name="Mouser Part Number">81-GRM426X106K6.3L</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM426X106K6.3L</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="GRM31CR70J106KA01L" description="1206 X7R ceramic capacitor,10uF 6.3V Murata 1206 GRM 10uF Ceramic Multilayer Capacitor, 6.3 V dc, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5F9EA5</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>M20-7910442R</value>
+      <footprint>M207910442R</footprint>
+      <datasheet>https://cdn.harwin.com/pdfs/M20-791R.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">M20-7910442R</field>
+        <field name="Description">Headers &amp; Wire Housings 4 WAY SIL HORIZ SMT SKT T&amp;R</field>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M20-7910442R</field>
+        <field name="Mouser Part Number">855-M20-7910442R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Harwin/M20-7910442R?qs=k41KVqW3ymrGT4VqB8J8Xw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="M20-7910442R" description="Headers &amp; Wire Housings 4 WAY SIL HORIZ SMT SKT T&amp;R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F600589</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SamacSys_Parts" part="GRM31CR70J106KA01L">
+      <description>1206 X7R ceramic capacitor,10uF 6.3V Murata 1206 GRM 10uF Ceramic Multilayer Capacitor, 6.3 V dc, +125C, X7R Dielectric, +/-10% SMD</description>
+      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM31CR70J106KA01L</field>
+        <field name="Footprint">CAPC3216X180N</field>
+        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf</field>
+        <field name="Description">1206 X7R ceramic capacitor,10uF 6.3V Murata 1206 GRM 10uF Ceramic Multilayer Capacitor, 6.3 V dc, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">GRM31CR70J106KA01L</field>
+        <field name="Arrow Part Number">GRM31CR70J106KA01L</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/grm31cr70j106ka01l/murata-manufacturing</field>
+        <field name="Mouser Part Number">81-GRM426X106K6.3L</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM426X106K6.3L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="M20-7910442R">
+      <description>Headers &amp; Wire Housings 4 WAY SIL HORIZ SMT SKT T&amp;R</description>
+      <docs>https://cdn.harwin.com/pdfs/M20-791R.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M20-7910442R</field>
+        <field name="Footprint">M207910442R</field>
+        <field name="Datasheet">https://cdn.harwin.com/pdfs/M20-791R.pdf</field>
+        <field name="Description">Headers &amp; Wire Housings 4 WAY SIL HORIZ SMT SKT T&amp;R</field>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M20-7910442R</field>
+        <field name="Arrow Part Number">M20-7910442R</field>
+        <field name="Mouser Part Number">855-M20-7910442R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Harwin/M20-7910442R?qs=k41KVqW3ymrGT4VqB8J8Xw%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="RC1206FR-0710KL">
+      <description>GENERAL PURPOSE CHIP RESISTORS</description>
+      <docs>https://www.sos.sk/productdata/35/10/4/35104/RC1206.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC1206FR-0710KL</field>
+        <field name="Footprint">RESC3116X65N</field>
+        <field name="Datasheet">https://www.sos.sk/productdata/35/10/4/35104/RC1206.pdf</field>
+        <field name="Description">GENERAL PURPOSE CHIP RESISTORS</field>
+        <field name="Height">0.65</field>
+        <field name="Manufacturer_Name">YAGEO (PHYCOMP)</field>
+        <field name="Manufacturer_Part_Number">RC1206FR-0710KL</field>
+        <field name="Arrow Part Number">RC1206FR-0710KL</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/rc1206fr-0710kl/yageo</field>
+        <field name="Mouser Part Number">603-RC1206FR-0710KL</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=603-RC1206FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SSM-104-F-DV">
+      <description>8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch</description>
+      <docs>http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SSM-104-F-DV</field>
+        <field name="Footprint">SSM-104-XXX-DV</field>
+        <field name="Datasheet">http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf</field>
+        <field name="Description">8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&amp;quot; pitch</field>
+        <field name="Manufacturer_Name">SAMTEC</field>
+        <field name="Manufacturer_Part_Number">SSM-104-F-DV</field>
+        <field name="Arrow Part Number">SSM-104-F-DV</field>
+        <field name="Mouser Part Number">200-SSM104FDV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-F-DV?qs=rU5fayqh%252BE1VcPc15WZEOQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TCA9548APWR">
+      <description>TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tca9548a.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TCA9548APWR</field>
+        <field name="Footprint">SOP65P640X120-24N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tca9548a.pdf</field>
+        <field name="Description">TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TCA9548APWR</field>
+        <field name="Arrow Part Number">TCA9548APWR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tca9548apwr/texas-instruments</field>
+        <field name="Mouser Part Number">595-TCA9548APWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCA9548APWR?qs=iFaFN7AS2WF%252BqSiJMbdYwQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="passive"/>
+        <pin num="2" name="A1" type="passive"/>
+        <pin num="3" name="~RESET" type="passive"/>
+        <pin num="4" name="SD0" type="passive"/>
+        <pin num="5" name="SC0" type="passive"/>
+        <pin num="6" name="SD1" type="passive"/>
+        <pin num="7" name="SC1" type="passive"/>
+        <pin num="8" name="SD2" type="passive"/>
+        <pin num="9" name="SC2" type="passive"/>
+        <pin num="10" name="SD3" type="passive"/>
+        <pin num="11" name="SC3" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="SD4" type="passive"/>
+        <pin num="14" name="SC4" type="passive"/>
+        <pin num="15" name="SD5" type="passive"/>
+        <pin num="16" name="SC5" type="passive"/>
+        <pin num="17" name="SD6" type="passive"/>
+        <pin num="18" name="SC6" type="passive"/>
+        <pin num="19" name="SD7" type="passive"/>
+        <pin num="20" name="SC7" type="passive"/>
+        <pin num="21" name="A2" type="passive"/>
+        <pin num="22" name="SCL" type="passive"/>
+        <pin num="23" name="SDA" type="passive"/>
+        <pin num="24" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/scoci/Documents/SamacSys_PCB_Library/KiCad/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="IC1" pin="21"/>
+      <node ref="IC1" pin="24"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad3)">
+      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="4" name="SCL4">
+      <node ref="J3" pin="5"/>
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="5" name="SDA0">
+      <node ref="IC1" pin="4"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="6" name="SCL0">
+      <node ref="J1" pin="5"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="7" name="SDAMC">
+      <node ref="J5" pin="4"/>
+      <node ref="IC1" pin="23"/>
+    </net>
+    <net code="8" name="SCLMC">
+      <node ref="J5" pin="3"/>
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="9" name="SDA4">
+      <node ref="IC1" pin="13"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="10" name="SDA3">
+      <node ref="J2" pin="8"/>
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="11" name="SCL3">
+      <node ref="IC1" pin="11"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="12" name="SDA1">
+      <node ref="J1" pin="8"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="13" name="SCL1">
+      <node ref="J1" pin="6"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="14" name="SDA7">
+      <node ref="J4" pin="8"/>
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="15" name="SDA5">
+      <node ref="IC1" pin="15"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="16" name="SCL5">
+      <node ref="J3" pin="6"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="17" name="SCL7">
+      <node ref="J4" pin="6"/>
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="18" name="SDA6">
+      <node ref="J4" pin="7"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="19" name="SCL6">
+      <node ref="J4" pin="5"/>
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="20" name="SDA2">
+      <node ref="J2" pin="7"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="21" name="SCL2">
+      <node ref="IC1" pin="9"/>
+      <node ref="J2" pin="5"/>
+    </net>
+  </nets>
+</export>
