@@ -1,0 +1,720 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "SpecPeripheral I2C Bus Board"
+Date "2020-09-20"
+Rev "A"
+Comp "Binomica Labs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0102
+U 1 1 5F458194
+P 9650 1200
+F 0 "#PWR0102" H 9650 950 50  0001 C CNN
+F 1 "GND" H 9655 1027 50  0000 C CNN
+F 2 "" H 9650 1200 50  0001 C CNN
+F 3 "" H 9650 1200 50  0001 C CNN
+	1    9650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F4586A4
+P 9650 1000
+F 0 "#FLG0101" H 9650 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 9650 1173 50  0000 C CNN
+F 2 "" H 9650 1000 50  0001 C CNN
+F 3 "~" H 9650 1000 50  0001 C CNN
+	1    9650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F458890
+P 9200 1000
+F 0 "#FLG0102" H 9200 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 9200 1173 50  0000 C CNN
+F 2 "" H 9200 1000 50  0001 C CNN
+F 3 "~" H 9200 1000 50  0001 C CNN
+	1    9200 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1000 9200 1200
+Wire Wire Line
+	9650 1000 9650 1200
+$Comp
+L power:GND #PWR0108
+U 1 1 5F465090
+P 6450 2450
+F 0 "#PWR0108" H 6450 2200 50  0001 C CNN
+F 1 "GND" H 6455 2277 50  0000 C CNN
+F 2 "" H 6450 2450 50  0001 C CNN
+F 3 "" H 6450 2450 50  0001 C CNN
+	1    6450 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F58ABB9
+P 3350 4750
+F 0 "#PWR0105" H 3350 4500 50  0001 C CNN
+F 1 "GND" H 3355 4577 50  0000 C CNN
+F 2 "" H 3350 4750 50  0001 C CNN
+F 3 "" H 3350 4750 50  0001 C CNN
+	1    3350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5F59CA49
+P 2250 2400
+F 0 "#PWR0101" H 2250 2250 50  0001 C CNN
+F 1 "VCC" H 2265 2573 50  0000 C CNN
+F 2 "" H 2250 2400 50  0001 C CNN
+F 3 "" H 2250 2400 50  0001 C CNN
+	1    2250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F59D5AB
+P 2600 4750
+F 0 "#PWR0103" H 2600 4600 50  0001 C CNN
+F 1 "VCC" H 2615 4923 50  0000 C CNN
+F 2 "" H 2600 4750 50  0001 C CNN
+F 3 "" H 2600 4750 50  0001 C CNN
+	1    2600 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5F59DB88
+P 6200 2350
+F 0 "#PWR0106" H 6200 2200 50  0001 C CNN
+F 1 "VCC" H 6215 2523 50  0000 C CNN
+F 2 "" H 6200 2350 50  0001 C CNN
+F 3 "" H 6200 2350 50  0001 C CNN
+	1    6200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5F59DCE9
+P 9200 1200
+F 0 "#PWR0107" H 9200 1050 50  0001 C CNN
+F 1 "VCC" H 9215 1373 50  0000 C CNN
+F 2 "" H 9200 1200 50  0001 C CNN
+F 3 "" H 9200 1200 50  0001 C CNN
+	1    9200 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 3350 2250 3100
+Wire Wire Line
+	3350 4600 3350 4750
+Wire Wire Line
+	2600 4600 2600 4750
+Text GLabel 3800 3250 2    50   Input ~ 0
+SDAMC
+Text GLabel 3800 3350 2    50   Input ~ 0
+SCLMC
+Text GLabel 2200 3450 0    50   Input ~ 0
+SDA0
+Text GLabel 2200 3550 0    50   Input ~ 0
+SCL0
+Text GLabel 2200 3650 0    50   Input ~ 0
+SDA1
+Text GLabel 2200 3750 0    50   Input ~ 0
+SCL1
+Text GLabel 2200 3850 0    50   Input ~ 0
+SDA2
+Text GLabel 2200 3950 0    50   Input ~ 0
+SCL2
+Text GLabel 3800 3550 2    50   Input ~ 0
+SCL7
+Text GLabel 3800 3650 2    50   Input ~ 0
+SDA7
+Text GLabel 3800 3750 2    50   Input ~ 0
+SCL6
+Text GLabel 3800 3850 2    50   Input ~ 0
+SDA6
+Text GLabel 3800 3950 2    50   Input ~ 0
+SCL5
+Text GLabel 3800 4050 2    50   Input ~ 0
+SDA5
+Text GLabel 3800 4150 2    50   Input ~ 0
+SCL4
+Text GLabel 3800 4250 2    50   Input ~ 0
+SDA4
+Wire Wire Line
+	3800 3950 3600 3950
+Wire Wire Line
+	3800 3850 3600 3850
+Wire Wire Line
+	3800 3750 3600 3750
+Wire Wire Line
+	3800 3650 3600 3650
+Wire Wire Line
+	3600 3550 3800 3550
+Wire Wire Line
+	2400 3450 2200 3450
+Wire Wire Line
+	2200 3550 2400 3550
+Wire Wire Line
+	2200 3650 2400 3650
+Wire Wire Line
+	2200 3750 2400 3750
+Wire Wire Line
+	2200 3850 2400 3850
+Wire Wire Line
+	2200 3950 2400 3950
+Text GLabel 6200 4050 2    50   Input ~ 0
+SDA1
+Text GLabel 6200 3950 2    50   Input ~ 0
+SCL1
+Text GLabel 6200 3350 2    50   Input ~ 0
+SDA2
+Text GLabel 6200 3250 2    50   Input ~ 0
+SCL2
+Wire Wire Line
+	6050 3350 6200 3350
+Wire Wire Line
+	6050 3250 6200 3250
+Text GLabel 7650 5600 2    50   Input ~ 0
+SDAMC
+Text GLabel 7650 5500 2    50   Input ~ 0
+SCLMC
+Text GLabel 8050 4050 2    50   Input ~ 0
+SDA5
+Text GLabel 8050 3950 2    50   Input ~ 0
+SCL5
+Text GLabel 8050 2650 2    50   Input ~ 0
+SDA7
+Text GLabel 8050 2550 2    50   Input ~ 0
+SCL7
+Text GLabel 6200 2650 2    50   Input ~ 0
+SDA3
+Text GLabel 6200 2550 2    50   Input ~ 0
+SCL3
+Text GLabel 8050 3350 2    50   Input ~ 0
+SDA6
+Text GLabel 8050 3250 2    50   Input ~ 0
+SCL6
+Text GLabel 8050 4750 2    50   Input ~ 0
+SDA4
+Text GLabel 8050 4650 2    50   Input ~ 0
+SCL4
+Wire Wire Line
+	7900 4750 8050 4750
+Wire Wire Line
+	7900 4650 8050 4650
+Text GLabel 6200 4750 2    50   Input ~ 0
+SDA0
+Text GLabel 6200 4650 2    50   Input ~ 0
+SCL0
+Wire Wire Line
+	6050 4750 6200 4750
+Wire Wire Line
+	6050 4650 6200 4650
+$Comp
+L SamacSys_Parts:TCA9548APWR IC1
+U 1 1 5F58A0E1
+P 2400 3150
+F 0 "IC1" H 3000 3415 50  0000 C CNN
+F 1 "TCA9548APWR" H 3000 3324 50  0000 C CNN
+F 2 "SOP65P640X120-24N" H 3450 3250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 3450 3150 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24" H 3450 3050 50  0001 L CNN "Description"
+F 5 "1.2" H 3450 2950 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 3450 2850 50  0001 L CNN "Manufacturer_Name"
+F 7 "TCA9548APWR" H 3450 2750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "TCA9548APWR" H 3450 2650 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/tca9548apwr/texas-instruments" H 3450 2550 50  0001 L CNN "Arrow Price/Stock"
+F 10 "595-TCA9548APWR" H 3450 2450 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCA9548APWR?qs=iFaFN7AS2WF%252BqSiJMbdYwQ%3D%3D" H 3450 2350 50  0001 L CNN "Mouser Price/Stock"
+	1    2400 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 4050 0    50   Input ~ 0
+SDA3
+Text GLabel 2200 4150 0    50   Input ~ 0
+SCL3
+Wire Wire Line
+	2200 4050 2400 4050
+Wire Wire Line
+	2200 4150 2400 4150
+Wire Wire Line
+	3600 4050 3800 4050
+Wire Wire Line
+	3800 4150 3600 4150
+Wire Wire Line
+	3800 4250 3600 4250
+Wire Wire Line
+	2250 3350 2400 3350
+Wire Wire Line
+	3600 3350 3800 3350
+Wire Wire Line
+	3600 3250 3800 3250
+Wire Wire Line
+	2400 4250 2400 4600
+Wire Wire Line
+	2400 4600 2600 4600
+Wire Wire Line
+	3600 3150 4200 3150
+Wire Wire Line
+	4200 3150 4200 4600
+Wire Wire Line
+	4200 4600 3350 4600
+$Comp
+L SamacSys_Parts:RC1206FR-0710KL R1
+U 1 1 5F5F19D1
+P 2250 2400
+F 0 "R1" V 2554 2488 50  0000 L CNN
+F 1 "10K" V 2645 2488 50  0000 L CNN
+F 2 "RESC3116X65N" H 2800 2450 50  0001 L CNN
+F 3 "https://www.sos.sk/productdata/35/10/4/35104/RC1206.pdf" H 2800 2350 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 2800 2250 50  0001 L CNN "Description"
+F 5 "0.65" H 2800 2150 50  0001 L CNN "Height"
+F 6 "YAGEO (PHYCOMP)" H 2800 2050 50  0001 L CNN "Manufacturer_Name"
+F 7 "RC1206FR-0710KL" H 2800 1950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "RC1206FR-0710KL" H 2800 1850 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/rc1206fr-0710kl/yageo" H 2800 1750 50  0001 L CNN "Arrow Price/Stock"
+F 10 "603-RC1206FR-0710KL" H 2800 1650 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-RC1206FR-0710KL" H 2800 1550 50  0001 L CNN "Mouser Price/Stock"
+	1    2250 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:GRM31CR70J106KA01L C1
+U 1 1 5F5F9EA5
+P 2700 4600
+F 0 "C1" H 2950 4773 50  0000 C CNN
+F 1 "qw" H 2950 4774 50  0001 C CNN
+F 2 "CAPC3216X180N" H 3050 4650 50  0001 L CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 3050 4550 50  0001 L CNN
+F 4 "1206 X7R ceramic capacitor,10uF 6.3V Murata 1206 GRM 10uF Ceramic Multilayer Capacitor, 6.3 V dc, +125C, X7R Dielectric, +/-10% SMD" H 3050 4450 50  0001 L CNN "Description"
+F 5 "1.8" H 3050 4350 50  0001 L CNN "Height"
+F 6 "Murata Electronics" H 3050 4250 50  0001 L CNN "Manufacturer_Name"
+F 7 "GRM31CR70J106KA01L" H 3050 4150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "GRM31CR70J106KA01L" H 3050 4050 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/grm31cr70j106ka01l/murata-manufacturing" H 3050 3950 50  0001 L CNN "Arrow Price/Stock"
+F 10 "81-GRM426X106K6.3L" H 3050 3850 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM426X106K6.3L" H 3050 3750 50  0001 L CNN "Mouser Price/Stock"
+	1    2700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4600 2700 4600
+Connection ~ 2600 4600
+Wire Wire Line
+	3350 4600 3200 4600
+Connection ~ 3350 4600
+$Comp
+L power:GND #PWR0124
+U 1 1 5F612DB1
+P 2400 3150
+F 0 "#PWR0124" H 2400 2900 50  0001 C CNN
+F 1 "GND" H 2405 2977 50  0000 C CNN
+F 2 "" H 2400 3150 50  0001 C CNN
+F 3 "" H 2400 3150 50  0001 C CNN
+	1    2400 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 3250 2400 3150
+Connection ~ 2400 3150
+$Comp
+L power:GND #PWR0125
+U 1 1 5F615BFB
+P 3600 3450
+F 0 "#PWR0125" H 3600 3200 50  0001 C CNN
+F 1 "GND" V 3605 3322 50  0000 R CNN
+F 2 "" H 3600 3450 50  0001 C CNN
+F 3 "" H 3600 3450 50  0001 C CNN
+	1    3600 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 60EE4C94
+P 7700 4650
+F 0 "J4" H 7800 4600 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 7400 4850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7700 4650 50  0001 C CNN
+F 3 "~" H 7700 4650 50  0001 C CNN
+	1    7700 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J5
+U 1 1 60EE5E0D
+P 7700 3950
+F 0 "J5" H 7750 3900 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 7000 4150 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7700 3950 50  0001 C CNN
+F 3 "~" H 7700 3950 50  0001 C CNN
+	1    7700 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J6
+U 1 1 60EE864B
+P 7700 3250
+F 0 "J6" H 7800 3200 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 7400 3450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7700 3250 50  0001 C CNN
+F 3 "~" H 7700 3250 50  0001 C CNN
+	1    7700 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J7
+U 1 1 60EEAA4E
+P 7700 2550
+F 0 "J7" H 7800 2500 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 7400 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7700 2550 50  0001 C CNN
+F 3 "~" H 7700 2550 50  0001 C CNN
+	1    7700 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J0
+U 1 1 60EF095B
+P 5850 4650
+F 0 "J0" H 5950 4550 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 5550 4850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 4650 50  0001 C CNN
+F 3 "~" H 5850 4650 50  0001 C CNN
+	1    5850 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 60EF0961
+P 5850 3950
+F 0 "J1" H 5878 3926 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5150 4150 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 3950 50  0001 C CNN
+F 3 "~" H 5850 3950 50  0001 C CNN
+	1    5850 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 60EF0967
+P 5850 3250
+F 0 "J2" H 5878 3226 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5150 3450 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 3250 50  0001 C CNN
+F 3 "~" H 5850 3250 50  0001 C CNN
+	1    5850 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 60EF096D
+P 5850 2550
+F 0 "J3" H 5878 2526 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5150 2750 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 2550 50  0001 C CNN
+F 3 "~" H 5850 2550 50  0001 C CNN
+	1    5850 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 2350 6200 2350
+Wire Wire Line
+	6050 2450 6450 2450
+$Comp
+L power:GND #PWR0104
+U 1 1 60F2D3D0
+P 8300 2450
+F 0 "#PWR0104" H 8300 2200 50  0001 C CNN
+F 1 "GND" H 8305 2277 50  0000 C CNN
+F 2 "" H 8300 2450 50  0001 C CNN
+F 3 "" H 8300 2450 50  0001 C CNN
+	1    8300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 60F2D3D6
+P 8050 2350
+F 0 "#PWR0109" H 8050 2200 50  0001 C CNN
+F 1 "VCC" H 8065 2523 50  0000 C CNN
+F 2 "" H 8050 2350 50  0001 C CNN
+F 3 "" H 8050 2350 50  0001 C CNN
+	1    8050 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2350 8050 2350
+Wire Wire Line
+	7900 2450 8300 2450
+$Comp
+L power:GND #PWR0110
+U 1 1 60F2F959
+P 8300 3150
+F 0 "#PWR0110" H 8300 2900 50  0001 C CNN
+F 1 "GND" H 8305 2977 50  0000 C CNN
+F 2 "" H 8300 3150 50  0001 C CNN
+F 3 "" H 8300 3150 50  0001 C CNN
+	1    8300 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0111
+U 1 1 60F2F95F
+P 8050 3050
+F 0 "#PWR0111" H 8050 2900 50  0001 C CNN
+F 1 "VCC" H 8065 3223 50  0000 C CNN
+F 2 "" H 8050 3050 50  0001 C CNN
+F 3 "" H 8050 3050 50  0001 C CNN
+	1    8050 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3050 8050 3050
+Wire Wire Line
+	7900 3150 8300 3150
+$Comp
+L power:GND #PWR0112
+U 1 1 60F31F8C
+P 6450 3150
+F 0 "#PWR0112" H 6450 2900 50  0001 C CNN
+F 1 "GND" H 6455 2977 50  0000 C CNN
+F 2 "" H 6450 3150 50  0001 C CNN
+F 3 "" H 6450 3150 50  0001 C CNN
+	1    6450 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0113
+U 1 1 60F31F92
+P 6200 3050
+F 0 "#PWR0113" H 6200 2900 50  0001 C CNN
+F 1 "VCC" H 6215 3223 50  0000 C CNN
+F 2 "" H 6200 3050 50  0001 C CNN
+F 3 "" H 6200 3050 50  0001 C CNN
+	1    6200 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3050 6200 3050
+Wire Wire Line
+	6050 3150 6450 3150
+$Comp
+L power:GND #PWR0114
+U 1 1 60F34AF5
+P 6450 3850
+F 0 "#PWR0114" H 6450 3600 50  0001 C CNN
+F 1 "GND" H 6455 3677 50  0000 C CNN
+F 2 "" H 6450 3850 50  0001 C CNN
+F 3 "" H 6450 3850 50  0001 C CNN
+	1    6450 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 60F34AFB
+P 6200 3750
+F 0 "#PWR0115" H 6200 3600 50  0001 C CNN
+F 1 "VCC" H 6215 3923 50  0000 C CNN
+F 2 "" H 6200 3750 50  0001 C CNN
+F 3 "" H 6200 3750 50  0001 C CNN
+	1    6200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3750 6200 3750
+Wire Wire Line
+	6050 3850 6450 3850
+$Comp
+L power:GND #PWR0116
+U 1 1 60F375EB
+P 6450 4550
+F 0 "#PWR0116" H 6450 4300 50  0001 C CNN
+F 1 "GND" H 6455 4377 50  0000 C CNN
+F 2 "" H 6450 4550 50  0001 C CNN
+F 3 "" H 6450 4550 50  0001 C CNN
+	1    6450 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0117
+U 1 1 60F375F1
+P 6200 4450
+F 0 "#PWR0117" H 6200 4300 50  0001 C CNN
+F 1 "VCC" H 6215 4623 50  0000 C CNN
+F 2 "" H 6200 4450 50  0001 C CNN
+F 3 "" H 6200 4450 50  0001 C CNN
+	1    6200 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4450 6200 4450
+Wire Wire Line
+	6050 4550 6450 4550
+$Comp
+L power:GND #PWR0118
+U 1 1 60F3A2D7
+P 8300 4550
+F 0 "#PWR0118" H 8300 4300 50  0001 C CNN
+F 1 "GND" H 8305 4377 50  0000 C CNN
+F 2 "" H 8300 4550 50  0001 C CNN
+F 3 "" H 8300 4550 50  0001 C CNN
+	1    8300 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0119
+U 1 1 60F3A2DD
+P 8050 4450
+F 0 "#PWR0119" H 8050 4300 50  0001 C CNN
+F 1 "VCC" H 8065 4623 50  0000 C CNN
+F 2 "" H 8050 4450 50  0001 C CNN
+F 3 "" H 8050 4450 50  0001 C CNN
+	1    8050 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4450 8050 4450
+Wire Wire Line
+	7900 4550 8300 4550
+$Comp
+L power:GND #PWR0120
+U 1 1 60F3D33C
+P 8300 3850
+F 0 "#PWR0120" H 8300 3600 50  0001 C CNN
+F 1 "GND" H 8305 3677 50  0000 C CNN
+F 2 "" H 8300 3850 50  0001 C CNN
+F 3 "" H 8300 3850 50  0001 C CNN
+	1    8300 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0121
+U 1 1 60F3D342
+P 8050 3750
+F 0 "#PWR0121" H 8050 3600 50  0001 C CNN
+F 1 "VCC" H 8065 3923 50  0000 C CNN
+F 2 "" H 8050 3750 50  0001 C CNN
+F 3 "" H 8050 3750 50  0001 C CNN
+	1    8050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3750 8050 3750
+Wire Wire Line
+	7900 3850 8300 3850
+Wire Wire Line
+	6200 4050 6050 4050
+Wire Wire Line
+	6200 3950 6050 3950
+Wire Wire Line
+	8050 3250 7900 3250
+Wire Wire Line
+	8050 3950 7900 3950
+Wire Wire Line
+	8050 4050 7900 4050
+Wire Wire Line
+	6200 2550 6050 2550
+Wire Wire Line
+	6200 2650 6050 2650
+Wire Wire Line
+	8050 2550 7900 2550
+Wire Wire Line
+	8050 2650 7900 2650
+Wire Wire Line
+	8050 3350 7900 3350
+$Comp
+L power:GND #PWR0122
+U 1 1 60F725DA
+P 7250 5300
+F 0 "#PWR0122" H 7250 5050 50  0001 C CNN
+F 1 "GND" H 7255 5127 50  0000 C CNN
+F 2 "" H 7250 5300 50  0001 C CNN
+F 3 "" H 7250 5300 50  0001 C CNN
+	1    7250 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0123
+U 1 1 60F725E0
+P 7000 5300
+F 0 "#PWR0123" H 7000 5150 50  0001 C CNN
+F 1 "VCC" H 7015 5473 50  0000 C CNN
+F 2 "" H 7000 5300 50  0001 C CNN
+F 3 "" H 7000 5300 50  0001 C CNN
+	1    7000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J8
+U 1 1 60F725E8
+P 6650 5500
+F 0 "J8" H 6750 5450 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 6350 5700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6650 5500 50  0001 C CNN
+F 3 "~" H 6650 5500 50  0001 C CNN
+	1    6650 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 5300 7000 5300
+Wire Wire Line
+	6850 5400 7250 5400
+Wire Wire Line
+	6950 5500 6850 5500
+Wire Wire Line
+	6950 5600 6850 5600
+$Comp
+L SamacSys_Parts:RC1206FR-0710KL R3
+U 1 1 61037894
+P 6950 5600
+F 0 "R3" H 7150 5700 50  0000 L CNN
+F 1 "10K" H 7300 5700 50  0000 L CNN
+F 2 "RESC3116X65N" H 7500 5650 50  0001 L CNN
+F 3 "https://www.sos.sk/productdata/35/10/4/35104/RC1206.pdf" H 7500 5550 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 7500 5450 50  0001 L CNN "Description"
+F 5 "0.65" H 7500 5350 50  0001 L CNN "Height"
+F 6 "YAGEO (PHYCOMP)" H 7500 5250 50  0001 L CNN "Manufacturer_Name"
+F 7 "RC1206FR-0710KL" H 7500 5150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "RC1206FR-0710KL" H 7500 5050 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/rc1206fr-0710kl/yageo" H 7500 4950 50  0001 L CNN "Arrow Price/Stock"
+F 10 "603-RC1206FR-0710KL" H 7500 4850 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-RC1206FR-0710KL" H 7500 4750 50  0001 L CNN "Mouser Price/Stock"
+	1    6950 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5400 7250 5300
+$Comp
+L SamacSys_Parts:RC1206FR-0710KL R2
+U 1 1 6103523C
+P 6950 5500
+F 0 "R2" H 7150 5400 50  0000 L CNN
+F 1 "10K" H 7300 5400 50  0000 L CNN
+F 2 "RESC3116X65N" H 7500 5550 50  0001 L CNN
+F 3 "https://www.sos.sk/productdata/35/10/4/35104/RC1206.pdf" H 7500 5450 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 7500 5350 50  0001 L CNN "Description"
+F 5 "0.65" H 7500 5250 50  0001 L CNN "Height"
+F 6 "YAGEO (PHYCOMP)" H 7500 5150 50  0001 L CNN "Manufacturer_Name"
+F 7 "RC1206FR-0710KL" H 7500 5050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "RC1206FR-0710KL" H 7500 4950 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/rc1206fr-0710kl/yageo" H 7500 4850 50  0001 L CNN "Arrow Price/Stock"
+F 10 "603-RC1206FR-0710KL" H 7500 4750 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=603-RC1206FR-0710KL" H 7500 4650 50  0001 L CNN "Mouser Price/Stock"
+	1    6950 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
