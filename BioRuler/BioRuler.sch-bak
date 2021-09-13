@@ -151,6 +151,17 @@ Connection ~ 2900 3700
 Wire Wire Line
 	2900 3700 2900 3950
 $Comp
+L Switch:SW_Push SW1
+U 1 1 61175017
+P 2200 3500
+F 0 "SW1" H 2200 3785 50  0000 C CNN
+F 1 "RESET" H 2200 3694 50  0000 C CNN
+F 2 "" H 2200 3700 50  0001 C CNN
+F 3 "~" H 2200 3700 50  0001 C CNN
+	1    2200 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
 L Device:C C1
 U 1 1 61177231
 P 2500 3500
@@ -162,7 +173,18 @@ F 3 "~" H 2500 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	2200 3300 2200 3250
+Wire Wire Line
+	2200 3250 2500 3250
+Wire Wire Line
 	2500 3350 2500 3250
+Wire Wire Line
+	2200 3700 2500 3700
+Wire Wire Line
+	2500 3700 2500 3650
+Wire Wire Line
+	2200 3700 2200 4250
+Connection ~ 2200 3700
 Text GLabel 4800 4050 2    50   Input ~ 0
 DIO
 Text GLabel 4800 3950 2    50   Input ~ 0
@@ -1010,6 +1032,8 @@ Wire Wire Line
 Wire Wire Line
 	2700 4150 2900 4150
 Wire Wire Line
+	2200 4250 2900 4250
+Wire Wire Line
 	2500 3250 2900 3250
 Connection ~ 2500 3250
 Wire Wire Line
@@ -1129,47 +1153,4 @@ Wire Wire Line
 	1900 6600 2000 6600
 Wire Wire Line
 	1900 6500 2000 6500
-$Comp
-L SamacSys_Parts:PTS526_SM15_SMTR2_LFS SW1
-U 1 1 6129E836
-P 950 3500
-F 0 "SW1" H 1550 3450 50  0000 C CNN
-F 1 "PTS526_SM15_SMTR2_LFS" H 1550 3674 50  0000 C CNN
-F 2 "PTS526SM15SMTR2LFS" H 2000 3600 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/60/pts526-1651200.pdf" H 2000 3500 50  0001 L CNN
-F 4 "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator" H 2000 3400 50  0001 L CNN "Description"
-F 5 "1.5" H 2000 3300 50  0001 L CNN "Height"
-F 6 "C & K COMPONENTS" H 2000 3200 50  0001 L CNN "Manufacturer_Name"
-F 7 "PTS526 SM15 SMTR2 LFS" H 2000 3100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "611-PTS526SM15SMTR2L" H 2000 3000 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D" H 2000 2900 50  0001 L CNN "Mouser Price/Stock"
-F 10 "PTS526 SM15 SMTR2 LFS" H 2000 2800 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/pts526-sm15-smtr2-lfs/ck" H 2000 2700 50  0001 L CNN "Arrow Price/Stock"
-	1    950  3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  3600 950  3800
-Wire Wire Line
-	950  3800 2150 3800
-Wire Wire Line
-	2150 3600 2150 3800
-Wire Wire Line
-	950  3500 950  3250
-Wire Wire Line
-	950  3250 2150 3250
-Wire Wire Line
-	2150 3500 2150 3250
-Connection ~ 2150 3250
-Wire Wire Line
-	2150 3250 2500 3250
-Wire Wire Line
-	2150 3800 2500 3800
-Wire Wire Line
-	2500 3650 2500 3800
-Connection ~ 2150 3800
-Wire Wire Line
-	2150 3800 2150 4250
-Wire Wire Line
-	2150 4250 2900 4250
 $EndSCHEMATC
