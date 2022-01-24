@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TSL25721FN
+D Light to Digital Converters ALS, I2C Vbus= VDD Interface
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-7/120558.pdf
+$ENDCMP
+#
+$CMP SSM-102-L-DV-BE
+D 4 Position, Surface Mount PCB Socket Strips, 0.100&quot; pitch
+K
+F http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf
+$ENDCMP
+#
+#End Doc Library

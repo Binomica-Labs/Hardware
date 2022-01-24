@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TSL25721FN
+D Light to Digital Converters ALS, I2C Vbus= VDD Interface
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-7/120558.pdf
+$ENDCMP
+#
+#End Doc Library
