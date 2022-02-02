@@ -1,5 +1,5 @@
 // *******************************************************************************************************************************************
-// The Cabbage MiniSpec v3
+// MiniSpec v3
 // Version: 0.1
 // Copyright 2022 Binomica Labs
 // Author: Sebastian S. Cocioba
@@ -26,40 +26,54 @@
 
 TSL2572 light_sensor;
 
-File myFile;                               // define SD card file object
-int lightLevel = 0;
+File myFile;                       // define SD card file object
+int lightLevel = 0;                //initialize light level variable        
 int gain_val = 0;
-unsigned long myTime;
+unsigned long myTime;              //large variable for miliseconds since uptime. overflow at 50 days.
 
 void setup()
 {
-   Wire.begin();
-  pinMode(LED_BUILTIN, OUTPUT);                               // set the built-in arduino LED as an output for use as an indicator light later
-  light_sensor.init(GAIN_120X);
-  SD.begin(4);                                                // SD card shield uses digital pin 4 for the ChipSelect (CS) pin
-
-  delay(3000);
+  Wire.begin();
+  pinMode(LED_BUILTIN, OUTPUT);     //set the built-in arduino LED as an output for use as an indicator light later
+  light_sensor.init(GAIN_120X);     //maximum sensitivity setting
+  SD.begin(4);                      //SD card shield uses digital pin 4 for the ChipSelect (CS) pin
+  Serial.begin(9600);
+  delay(5000);                      //five second delay to let shaker get up to speed once starting
 }
 
 
 
 void loop()
 {
-  File myFile = SD.open("MINI.csv", FILE_WRITE);             // create and/or open a file called moist.csv and make it writable
+  File myFile = SD.open("MINI.csv", FILE_WRITE);         // create and/or open a file called MINI.csv and make it writable
 
-  if (myFile)                                                 // if said CSV file is made and can be opened on the SD card then do all the things, else error
+  if (myFile)                                            // if said CSV file is made and can be opened on the SD card then do all the things, else error
   {
-    digitalWrite(LED_BUILTIN, HIGH);                          // turn off SD card writing cycle signal light
+    digitalWrite(LED_BUILTIN, HIGH);                     // turn off SD card writing cycle signal light
     myTime = millis();
+    lightLevel = 0;
     lightLevel = light_sensor.readAmbientLight() * 100 ;
-    myFile.print(myTime);
-    myFile.print(",");
-    myFile.println(lightLevel);
- 
-    digitalWrite(LED_BUILTIN, LOW);                           // turn off SD card writing cycle signal light
+    Serial.println(lightLevel);
+   
+    if (lightLevel > 5)                                  //precautionary light level lower limit (for max sensitivity mode)
+    {
+      myFile.print(myTime);
+      myFile.print(",");
+      myFile.println(lightLevel);
 
-    myFile.close();                                           // close SD card file
 
-    delay(1000);                                              // pause for 1 seconds
+      digitalWrite(LED_BUILTIN, LOW);                     // turn off SD card writing cycle signal light; this causes board to blink when running properly
+      myFile.close();                                     // close SD card file
+
+      delay(1000);                                        //pause one second between each reading
+    }
+    else
+    {
+      myTime = millis();
+      myFile.print("FAILURE");                            //mark failpoint on file along with time of failure
+      Serial.println("FAILURE");
+      myFile.close();
+      digitalWrite(LED_BUILTIN, HIGH);                    //keep board indicator light on constantly to show minispec in failure mode
+    }
   }
 }
