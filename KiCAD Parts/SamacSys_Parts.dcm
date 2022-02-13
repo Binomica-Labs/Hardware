@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SSM-104-F-DV-M-TR
+D 8 Position, Surface Mount PCB Socket Strips, 0.100&quot; pitch
+K
+F http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf
+$ENDCMP
+#
+$CMP SSM-104-F-DV
+D 8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&quot; pitch
+K
+F http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf
+$ENDCMP
+#
+$CMP SJ-43514-SMT-TR
+D Phone Connectors Audio Jacks
+K
+F https://www.mouser.de/ProductDetail/CUI-Devices/SJ-43514-SMT-TR?qs=WyjlAZoYn528%252BiAb5RzVtg%3D%3D
+$ENDCMP
+#
+$CMP TSL25911FN
+D Sensitivity Ambient Light Sensor DFN6
+K
+F http://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf
+$ENDCMP
+#
+$CMP TSM-104-02-S-DV-P-TR
+D 8 Position, Dual-Row, .100&quot; Surface Mount Terminal Strip
+K
+F http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf
+$ENDCMP
+#
+$CMP APD3224SECK-F01
+D Standard LEDs - SMD Orange Water Clear 601nm 1300mcd
+K
+F https://www.kingbrightusa.com/images/catalog/SPEC/APD3224SECK-F01.pdf
+$ENDCMP
+#
+$CMP AL5809-20P1-7
+D LED Lighting Drivers LED HV Int Switch
+K
+F https://www.diodes.com/assets/Datasheets/AL5809.pdf
+$ENDCMP
+#
+#End Doc Library

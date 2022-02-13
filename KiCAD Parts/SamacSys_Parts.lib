@@ -1,0 +1,213 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.28/8/3/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1000 700 50 H V L CNN
+F1 "NE555DR" 1000 600 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1000 500 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1000 400 50 H I L CNN
+F4 "Single Precision Timer" 1000 300 50 H I L CNN "Description"
+F5 "1.75" 1000 200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1000 100 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1000 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1218414" 1000 -100 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1218414" 1000 -200 50 H I L CNN "RS Price/Stock"
+F10 "NE555DR" 1000 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ne555dr/texas-instruments" 1000 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 600 -800 200 U 50 50 0 0 B
+X TRIG 2 0 0 200 R 50 50 0 0 B
+X OUT 3 0 -200 200 R 50 50 0 0 B
+X RESET 4 500 600 200 D 50 50 0 0 B
+X CONT 5 1200 -300 200 L 50 50 0 0 B
+X THRES 6 1200 -200 200 L 50 50 0 0 B
+X DISCH 7 1200 0 200 L 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -600 200 -600 200 400 N
+T 0 600 -100 50 0 0 1 "555" Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SSM-104-F-DV-M-TR
+#/12515437/729446/2.49/8/2/Connector
+DEF SSM-104-F-DV-M-TR J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SSM-104-F-DV-M-TR" 650 200 50 H V L CNN
+F2 "SSM-104-XXX-DV-M-TR" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf" 650 0 50 H I L CNN
+F4 "8 Position, Surface Mount PCB Socket Strips, 0.100&quot; pitch" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "SAMTEC" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SSM-104-F-DV-M-TR" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 -300 200 R 50 50 0 0 P
+X 2 2 800 -300 200 L 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 -200 200 L 50 50 0 0 P
+X 5 5 0 -100 200 R 50 50 0 0 P
+X 6 6 800 -100 200 L 50 50 0 0 P
+X 7 7 0 0 200 R 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SSM-104-F-DV
+#/10511649/249169/2.49/8/2/Connector
+DEF SSM-104-F-DV J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SSM-104-F-DV" 650 200 50 H V L CNN
+F2 "SSM-104-XXX-DV" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/ssm-1xx-xxx-dv-xx-xx-xxx-xx-mkt.pdf" 650 0 50 H I L CNN
+F4 "8 Position, Dual Row, Surface Mount PCB Socket Strip, 0.100&quot; pitch" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "SAMTEC" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SSM-104-F-DV" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "200-SSM104FDV" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Samtec/SSM-104-F-DV?qs=rU5fayqh%252BE1VcPc15WZEOQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 -300 200 R 50 50 0 0 P
+X 2 2 800 -300 200 L 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 -200 200 L 50 50 0 0 P
+X 5 5 0 -100 200 R 50 50 0 0 P
+X 6 6 800 -100 200 L 50 50 0 0 P
+X 7 7 0 0 200 R 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SJ-43514-SMT-TR
+#/12854229/249169/2.49/6/4/Connector
+DEF SJ-43514-SMT-TR J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "SJ-43514-SMT-TR" 1150 200 50 H V L CNN
+F2 "SJ43514SMTTR" 1150 100 50 H I L CNN
+F3 "https://www.mouser.de/ProductDetail/CUI-Devices/SJ-43514-SMT-TR?qs=WyjlAZoYn528%252BiAb5RzVtg%3D%3D" 1150 0 50 H I L CNN
+F4 "Phone Connectors Audio Jacks" 1150 -100 50 H I L CNN "Description"
+F5 "5" 1150 -200 50 H I L CNN "Height"
+F6 "CUI Inc." 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SJ-43514-SMT-TR" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "490-SJ-43514-SMT-TR" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-43514-SMT-TR?qs=WyjlAZoYn528%252BiAb5RzVtg%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SJ-43514-SMT-TR" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sj-43514-smt-tr/cui-devices?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SLEEVE 1 0 0 200 R 50 50 0 0 P
+X TIP 2 0 -100 200 R 50 50 0 0 P
+X RING_1 3 0 -200 200 R 50 50 0 0 P
+X RING_2 4 1300 0 200 L 50 50 0 0 P
+X NP_1 5 1300 -100 200 L 50 50 0 0 P
+X NP_2 6 1300 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TSL25911FN
+#/522111/249169/2.49/6/4/Integrated Circuit
+DEF TSL25911FN IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TSL25911FN" 850 200 50 H V L CNN
+F2 "TSL25911FN" 850 100 50 H I L CNN
+F3 "http://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf" 850 0 50 H I L CNN
+F4 "Sensitivity Ambient Light Sensor DFN6" 850 -100 50 H I L CNN "Description"
+F5 "0" 850 -200 50 H I L CNN "Height"
+F6 "ams" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TSL25911FN" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "985-TSL25911FN" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ams/TSL25911FN?qs=6irNfxKJ9AaiNMbaQmyIug%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TSL25911FN" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tsl25911fn/ams-ag?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SCL 1 0 0 200 R 50 50 0 0 P
+X INT 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X NC 4 1000 -200 200 L 50 50 0 0 N
+X VDD 5 1000 -100 200 L 50 50 0 0 P
+X SDA 6 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TSM-104-02-S-DV-P-TR
+#/1442949/249169/2.49/8/2/Connector
+DEF TSM-104-02-S-DV-P-TR J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "TSM-104-02-S-DV-P-TR" 650 200 50 H V L CNN
+F2 "TSM-104-YY-ZZZ-DV-P-TR" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf" 650 0 50 H I L CNN
+F4 "8 Position, Dual-Row, .100&quot; Surface Mount Terminal Strip" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "200-TSM10402SDVPTR" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Samtec/TSM-104-02-S-DV-P-TR?qs=0lQeLiL1qyYnr3uHEjAxRw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "SAMTEC" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TSM-104-02-S-DV-P-TR" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 800 -300 200 L 50 50 0 0 P
+X 2 2 0 -300 200 R 50 50 0 0 P
+X 3 3 800 -200 200 L 50 50 0 0 P
+X 4 4 0 -200 200 R 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+X 6 6 0 -100 200 R 50 50 0 0 P
+X 7 7 800 0 200 L 50 50 0 0 P
+X 8 8 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model APD3224SECK-F01
+#/1198491/249169/2.49/2/3/LED
+DEF APD3224SECK-F01 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "APD3224SECK-F01" 500 250 50 H V L BNN
+F2 "APD3224SECKF01" 500 150 50 H I L BNN
+F3 "https://www.kingbrightusa.com/images/catalog/SPEC/APD3224SECK-F01.pdf" 500 50 50 H I L BNN
+F4 "Standard LEDs - SMD Orange Water Clear 601nm 1300mcd" 500 -50 50 H I L BNN "Description"
+F5 "2.5" 500 -150 50 H I L BNN "Height"
+F6 "604-APD3224SECKF01" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Kingbright/APD3224SECK-F01?qs=VdjlWU%2FzoOGQkb1KltWm%2FQ%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Kingbright" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "APD3224SECK-F01" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AL5809-20P1-7
+#/1106824/249169/2.49/2/3/Integrated Circuit
+DEF AL5809-20P1-7 IC 0 30 Y Y 1 F N
+F0 "IC" 750 300 50 H V L CNN
+F1 "AL5809-20P1-7" 750 200 50 H V L CNN
+F2 "AL580920QP17" 750 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AL5809.pdf" 750 0 50 H I L CNN
+F4 "LED Lighting Drivers LED HV Int Switch" 750 -100 50 H I L CNN "Description"
+F5 "1" 750 -200 50 H I L CNN "Height"
+F6 "621-AL5809-20P1-7" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL5809-20P1-7?qs=9BjnSzo86S%252BJEo7jKmhSEQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Inc." 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AL5809-20P1-7" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 -100 200 R 50 50 0 0 P
+X OUT 2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

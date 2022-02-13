@@ -23,7 +23,9 @@
 #include <SD.h>                           // SD card library
 #include <Wire.h>                         // Wire library for various modules
 #include <TSL2572.h>      // For TSL2572 ambient light sensor
+#include <RTClib.h>
 
+RTC_DS1307 rtc;
 TSL2572 light_sensor;
 
 File myFile;                       // define SD card file object
@@ -34,9 +36,11 @@ unsigned long myTime;              //large variable for miliseconds since uptime
 void setup()
 {
   Wire.begin();
-  pinMode(LED_BUILTIN, OUTPUT);     //set the built-in arduino LED as an output for use as an indicator light later
+  pinMode(11, OUTPUT);     //set the built-in arduino LED as an output for use as an indicator light later
   light_sensor.init(GAIN_120X);     //maximum sensitivity setting
-  SD.begin(4);                      //SD card shield uses digital pin 4 for the ChipSelect (CS) pin
+  SD.begin(10);                      //SD card shield uses digital pin 4 for the ChipSelect (CS) pin
+  rtc.begin();  
+  rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));  
   Serial.begin(9600);
   delay(5000);                      //five second delay to let shaker get up to speed once starting
 }
@@ -46,34 +50,37 @@ void setup()
 void loop()
 {
   File myFile = SD.open("MINI.csv", FILE_WRITE);         // create and/or open a file called MINI.csv and make it writable
-
+  DateTime now = rtc.now();
   if (myFile)                                            // if said CSV file is made and can be opened on the SD card then do all the things, else error
   {
-    digitalWrite(LED_BUILTIN, HIGH);                     // turn off SD card writing cycle signal light
-    myTime = millis();
+    digitalWrite(3, HIGH);                     // turn off SD card writing cycle signal light
     lightLevel = 0;
     lightLevel = light_sensor.readAmbientLight() * 100 ;
     Serial.println(lightLevel);
    
     if (lightLevel > 5)                                  //precautionary light level lower limit (for max sensitivity mode)
     {
+      myTime = now.unixtime();
       myFile.print(myTime);
       myFile.print(",");
       myFile.println(lightLevel);
 
 
-      digitalWrite(LED_BUILTIN, LOW);                     // turn off SD card writing cycle signal light; this causes board to blink when running properly
+      digitalWrite(3, LOW);                     // turn off SD card writing cycle signal light; this causes board to blink when running properly
       myFile.close();                                     // close SD card file
 
       delay(1000);                                        //pause one second between each reading
     }
     else
     {
-      myTime = millis();
-      myFile.print("FAILURE");                            //mark failpoint on file along with time of failure
+      myTime = now.unixtime();
+      myFile.print(myTime);
+      myFile.print(",");
+      myFile.println("FAILURE");                            //mark failpoint on file along with time of failure
       Serial.println("FAILURE");
       myFile.close();
-      digitalWrite(LED_BUILTIN, HIGH);                    //keep board indicator light on constantly to show minispec in failure mode
+      digitalWrite(3, HIGH);                    //keep board indicator light on constantly to show minispec in failure mode
+      delay(1000);
     }
   }
 }

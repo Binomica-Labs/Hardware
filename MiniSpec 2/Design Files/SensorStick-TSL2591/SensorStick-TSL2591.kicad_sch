@@ -567,7 +567,7 @@
     (property "Value" "TSM-104-02-S-DV-P-TR" (id 1) (at 105.41 87.0204 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TSM-104-YY-ZZZ-DV-P-TR" (id 2) (at 111.76 88.9 0)
+    (property "Footprint" "BinomicaLabs:TSM-104-YY-ZZZ-DV-P-TR" (id 2) (at 111.76 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://suddendocs.samtec.com/prints/tsm-1xx-xx-xxx-xx-x-xxx-x-mkt.pdf" (id 3) (at 111.76 91.44 0)
@@ -886,7 +886,7 @@
     (uuid abd5b1f8-417b-4e4b-bb91-50def48c6e7b)
     (property "Reference" "IC1" (id 0) (at 170.18 96.52 0))
     (property "Value" "TSL25913FN" (id 1) (at 170.18 99.06 0))
-    (property "Footprint" "TSL25913FN" (id 2) (at 179.07 101.6 0)
+    (property "Footprint" "BinomicaLabs:TSL25911FN" (id 2) (at 179.07 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf" (id 3) (at 179.07 104.14 0)
@@ -969,10 +969,10 @@
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/abd5b1f8-417b-4e4b-bb91-50def48c6e7b"
-      (reference "IC1") (unit 1) (value "TSL25913FN") (footprint "TSL25913FN")
+      (reference "IC1") (unit 1) (value "TSL25913FN") (footprint "BinomicaLabs:TSL25911FN")
     )
     (path "/00000000-0000-0000-0000-00005f3f1e47"
-      (reference "J1") (unit 1) (value "TSM-104-02-S-DV-P-TR") (footprint "TSM-104-YY-ZZZ-DV-P-TR")
+      (reference "J1") (unit 1) (value "TSM-104-02-S-DV-P-TR") (footprint "BinomicaLabs:TSM-104-YY-ZZZ-DV-P-TR")
     )
     (path "/00000000-0000-0000-0000-00005f4705d5"
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_1206_3216Metric")
