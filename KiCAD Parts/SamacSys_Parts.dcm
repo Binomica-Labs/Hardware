@@ -48,4 +48,16 @@ K
 F https://www.diodes.com/assets/Datasheets/AL5809.pdf
 $ENDCMP
 #
+$CMP 2717
+D Switch IC Development Tools TCA9548A I2C Multiplexer
+K
+F https://learn.adafruit.com/downloads/pdf/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout.pdf
+$ENDCMP
+#
+$CMP TCA9548APWR
+D TEXAS INSTRUMENTS - TCA9548APWR - I2C SWITCH W/ RESET, 8-CH, TSSOP-24
+K
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
 #End Doc Library

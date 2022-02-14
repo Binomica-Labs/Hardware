@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "SpecPeripheral-I2C Bus Board v2-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/SpecPeripheral-I2C Bus Board v2-eagle-import.kicad_sym")(options "")(descr ""))
+)
